@@ -1,0 +1,109 @@
+{% extends "index.html" %}
+
+{% block title %}Home Page{% endblock %}
+{% block heading %}CricSense{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='team.css') }}">
+    <!-- Specific content for the page -->
+
+    
+    <div class="team-buttons">  
+        <h3 style="margin-bottom: 10px;">Select an IPL Team 👇</h3>
+            <!-- <button id="rpsg-button" class="team-button">Rising Pune Supergiant</button>
+            <button id="pw-button" class="team-button">Pune Warriors</button>
+            <button id="ktk-button" class="team-button">Kochi Tuskers Kerala</button> -->
+            <button id="csk-button" class="team-button">Chennai Super Kings</button>
+            <button id="pbks-button" class="team-button">Punjab Kings</button>
+            <button id="gt-button" class="team-button">Gujarat Titans</button>
+            <button id="rcb-button" class="team-button">Royal Challengers Bangalore</button>
+            <button id="kkr-button" class="team-button">Kolkata Knight Riders</button>
+            <button id="mi-button" class="team-button">Mumbai Indians</button>
+            <button id="srh-button" class="team-button">Sunrisers Hyderabad</button>
+            <button id="rr-button" class="team-button">Rajasthan Royals</button>
+            <button id="lsg-button" class="team-button">Lucknow Super Giants</button>
+            <button id="dc-button" class="team-button">Delhi Capitals</button>
+            <!-- <button id="gc-button" class="team-button">Gujarat Lions</button> -->
+            <!-- <button id="dch-button" class="team-button">Deccan Chargers</button> -->
+        
+        <!-- Add more buttons for other teams as needed -->
+
+        <!-- Add more buttons for other teams -->
+            
+        
+        <div class="container">
+
+            <div class="profile-container">
+                <img src="/static/team_logo/{{team_name}}.jpeg" alt="{{ team_name}}">
+           </div>
+
+            <div class="table-container">
+                {{ html1 | safe }}
+            </div>
+            
+        </div>
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<h3 style="text-align: left; margin-left: 20px;">{{team_name}}: Players with most matches with franchise</h3>
+    <div class="table-container">
+        {{ html2 | safe }}
+    </div>
+
+<h3 style="text-align: left; margin-left: 20px;">{{team_name}}: Players with most seasons franchise</h3>
+
+    <div class="table-container">
+        {{ html3 | safe }}
+    </div>
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        
+<h3 style="text-align: left; margin-left: 20px;">{{team_name}}: Avergae runs by the franchise each season</h3>
+
+        <div class="container1">
+            <img src="/static/graph_images_team/ave_runs_per_season_{{ team_name }}.png" alt="Runs Bar Plot">
+        </div>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+<h3 style="text-align: left; margin-left: 20px;">{{team_name}}: Dismissals and wickets as per periods</h3>
+
+
+        <div class="container2">
+                <img src="/static/graph_images_team/avg_runs_per_period_{{ team_name }}.png" alt="Over SR Run Plot">
+        </div>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+        <h3 style="text-align: left; margin-left: 20px;">{{team_name}}: Boxplots for runs across all seasons</h3>
+        <div class="container3">
+            <img src="/static/graph_images_team/boxplot_per_season_{{ team_name }}.png" alt="Balls per Plot">
+        </div>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+        <div class="container3">
+                
+        </div>
+
+
+        <div class="container4">
+            <div class="bar-container4">
+                <img src="/static/graph_images/stadium_average_chart_{{ team_name }}.png" alt="Balls per Plot1">
+            </div>
+
+            <div class="line-container4">
+                <img src="/static/graph_images/opposition_average_chart_{{ team_name }}.png" alt="Balls per Plot2">
+            </div>
+        </div>
+
+    <script src="{{ url_for('static', filename='team.js') }}"></script> <!-- Link to your teams.js file -->
+{% endblock %}
+
+    
+

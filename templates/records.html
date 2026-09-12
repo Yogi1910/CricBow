@@ -1,0 +1,169 @@
+
+<!-- static/others.html -->
+
+{% extends "index2.html" %}
+
+{% block title %}Others Page{% endblock %}
+{% block heading %}CricSense - Records{% endblock %}
+
+{% block content %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='records.css') }}">
+    <h1>Records</h1>
+        
+    <!-- Button sections for IPL, ODI, and Test Matches -->
+    <div class="button-section">
+        <button onclick="showIPL()" style="background-color: rgb(154, 154, 175); font-weight: bold;"">IPL</button>
+        <button id="odiButton" onclick="showODI()">ODI</button>
+        <button onclick="showTestMatches()">Test Matches</button>
+    </div>
+    
+    
+    <div class="containers-wrapper1">
+
+       
+        <!-- First container for existing tables -->
+        <div class="table-container">
+            <h3>Batting Records</h3>
+    
+            <h4 id="#most-runs">Most Runs</h4>
+            <div class="table-wrapper">
+                {{ most_runs_html | safe }}
+            </div>
+    
+            <h4>Highest Scores</h4>
+            <div class="table-wrapper" id="#highest-individual-score">           
+                {{ highest_scores_html | safe }}
+            </div>
+    
+            <h4>Most Hundreds</h4>
+            <div class="table-wrapper" id="#most-centuries"> 
+                {{ most_hundreds_html | safe }}
+            </div>
+    
+            <h4>Fastest Fifty</h4>
+            <div class="table-wrapper" id="#fastest-fifty">            
+                {{ fastest_fifty_html | safe }}
+            </div>
+    
+            <h4>Most Fours</h4>
+            <div class="table-wrapper" id="#most-fours">            
+                {{ most_fours_html | safe }}
+            </div>
+            
+            <h4 id="#most-sixes">Most Sixes</h4>
+            <div class="table-wrapper" >            
+                {{ most_sixes_html | safe }}
+            </div>
+        </div>
+
+        <!-- Second container -->
+        <div class="table-container">
+            <h3>Bowling Records</h3>
+    
+            <h4 id="#most-wickets">Most Wickets</h4>
+            <div class="table-wrapper">
+                {{ most_wickets_html | safe }}
+            </div>
+    
+            <h4 id = "#best-bowling">Best Bowling Figures</h4>
+            <div class="table-wrapper">           
+                {{ best_figures_html | safe }}
+            </div>
+    
+            <h4 id="#best-bowling-average">Best Bowling Averages</h4>
+            <div class="table-wrapper" > 
+                {{ best_bowling_averages_html | safe }}
+            </div>
+    
+            <h4 id="best-bowling-sr">Best Bowling SR</h4>
+            <div class="table-wrapper" >            
+                {{ best_bowling_sr_html | safe }}
+            </div>
+            
+            <h4 id="best-bowling-economy">Best Bowling Economy</h4>
+            <div class="table-wrapper" >            
+                {{ best_bowling_economy_html | safe }}
+            </div>
+
+            <h4 id="#four-plus-wickets">Most 4+ wicket hauls</h4>
+            <div class="table-wrapper" >            
+                {{ four_plus_wickets_html | safe }}
+            </div>
+
+            <h4 id="#hat-tricks">Hat tricks</h4>
+            <div class="table-wrapper" >            
+                {{ hat_tricks_html | safe }}
+            </div>
+    
+            
+        </div>
+    </div>
+
+
+
+    <div class="containers-wrapper2">
+        <!-- Third container -->
+        <div class="table-container">
+            <h3>Team Records</h3>
+    
+            <h4 id="#highest-innings-total">Highest Innings Total</h4>
+            <div class="table-wrapper">
+                {{ highest_innings_totals_html | safe }}
+            </div>
+
+            <h4 id="#teams-with-most-matchesl">Teams with most matches</h4>
+            <div class="table-wrapper">
+                {{ most_matches_teams_html | safe }}
+            </div>
+
+            <h4 id="#most-matches-against">Most matches between teams</h4>
+            <div class="table-wrapper">
+                {{ most_head_to_head_html | safe }}
+            </div>
+
+            <h4 id="#biggest-victories">Biggest victory margins (runs)</h4>
+            <div class="table-wrapper">
+                {{ biggest_victories_html | safe }}
+            </div>
+
+            <h4 id="#best-win-per-teams">Best win percentage</h4>
+            <div class="table-wrapper">
+                {{ best_win_per_html | safe }}
+            </div>
+    
+        
+        </div>
+
+
+        <div class="table-container">
+            <h3>Fielding Records</h3>
+    
+            <h4 id="#most-catches">Most catches taken by fielders</h4>
+            <div class="table-wrapper">
+                {{ most_catches_html | safe }}
+            </div>
+
+
+            <h4 id="#most-stumped">Most stumped players</h4>
+            <div class="table-wrapper">
+                {{ most_stumped_html | safe }}
+            </div>
+
+            <h4 id="#most-stumped">Most stumpings by wicket Keepers</h4>
+            <div class="table-wrapper">
+                {{ most_stumping_html | safe }}
+            </div>
+
+            <h4 id="#most-run-out">Most run out players</h4>
+            <div class="table-wrapper">
+                {{ most_run_out_html | safe }}
+            </div>
+    
+        </div>
+
+
+        
+    </div>
+
+    <script src="{{ url_for('static', filename='records.js') }}"></script>
+{% endblock %}

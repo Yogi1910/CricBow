@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='team_logo/favicon.ico') }}">
+    <title>CricBow</title>
+</head>
+<body>
+    <header class="top-ribbon">
+        <div class="title-and-image">
+            <img src="{{ url_for('static', filename='team_logo/cricbowlogo3.jpeg') }}" alt="CricBow Logo" loading="lazy" class="logo">
+        </div>
+        <nav class="ribbon-blocks">
+            <div class="ribbon-block"><a href="{{ url_for('home') }}">Home</a></div>
+            <div class="ribbon-block"><a href="{{ url_for('player') }}">Player</a></div>
+            <div class="ribbon-block"><a href="{{ url_for('team') }}">Team</a></div>
+            <div class="ribbon-block"><a href="{{ url_for('ipl') }}">IPL</a></div>
+            <div class="ribbon-block"><a href="{{ url_for('fantasy') }}">Fantasy</a></div>
+            <div class="ribbon-block"><a href="{{ url_for('records') }}">Records</a></div>
+        </nav>
+    </header>
+
+    
+    
+    <div class="page-layout">
+        
+
+        
+        <div class="content-container">
+            <div class="content">
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='index.js') }}"></script>
+
+    
+</body>
+</html>

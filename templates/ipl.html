@@ -1,0 +1,729 @@
+{% extends "index.html" %}
+{% block title %}IPL Winners{% endblock %}
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='ipl.css') }}">
+
+    <div class="heading-logo-container">
+        <div class="ipl-logo">
+            <img src="{{ url_for('static', filename='team_logo/ipl.jpeg') }}" alt="IPL">
+        </div>
+    </div>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<h1>IPL champions through the years</h1>
+
+    <div class="logos-container">
+        <img src="{{ url_for('static', filename='team_logo/Rajasthan Royals.jpeg') }}" alt="Rajasthan Royals">
+        <div class="logo-year">2008</div>
+        <img src="{{ url_for('static', filename='team_logo/Deccan Chargers.jpeg') }}" alt="Deccan Chargers">
+        <div class="logo-year">2009</div>
+        <img src="{{ url_for('static', filename='team_logo/Chennai Super Kings.jpeg') }}" alt="Chennai Super Kings">
+        <div class="logo-year">2010</div>
+        <img src="{{ url_for('static', filename='team_logo/Chennai Super Kings.jpeg') }}" alt="Chennai Super Kings">
+        <div class="logo-year">2011</div>
+        <img src="{{ url_for('static', filename='team_logo/Kolkata Knight Riders.jpeg') }}" alt="Kolkata Knight Riders">
+        <div class="logo-year">2012</div>
+        <img src="{{ url_for('static', filename='team_logo/Mumbai Indians.jpeg') }}" alt="Mumbai Indians">
+        <div class="logo-year">2013</div>
+        <img src="{{ url_for('static', filename='team_logo/Kolkata Knight Riders.jpeg') }}" alt="Kolkata Knight Riders">
+        <div class="logo-year">2014</div>
+        <img src="{{ url_for('static', filename='team_logo/Mumbai Indians.jpeg') }}" alt="Mumbai Indians">
+        <div class="logo-year">2015</div>
+    </div>        
+    <div class="logos-container">
+        
+        <img src="{{ url_for('static', filename='team_logo/Sunrisers Hyderabad.jpeg') }}" alt="Sunrisers Hyderabad">
+        <div class="logo-year">2016</div>
+        <img src="{{ url_for('static', filename='team_logo/Mumbai Indians.jpeg') }}" alt="Mumbai Indians">
+        <div class="logo-year">2017</div>
+        <img src="{{ url_for('static', filename='team_logo/Chennai Super Kings.jpeg') }}" alt="Chennai Super Kings">
+        <div class="logo-year">2018</div>
+        <img src="{{ url_for('static', filename='team_logo/Mumbai Indians.jpeg') }}" alt="Mumbai Indians">
+        <div class="logo-year">2019</div>
+        <img src="{{ url_for('static', filename='team_logo/Mumbai Indians.jpeg') }}" alt="Mumbai Indians">
+        <div class="logo-year">2020</div>
+        <img src="{{ url_for('static', filename='team_logo/Chennai Super Kings.jpeg') }}" alt="Chennai Super Kings">
+        <div class="logo-year">2021</div>
+        <img src="{{ url_for('static', filename='team_logo/Gujarat Titans.jpeg') }}" alt="Gujarat Titans">
+        <div class="logo-year">2022</div>
+        <img src="{{ url_for('static', filename='team_logo/Chennai Super Kings.jpeg') }}" alt="Chennai Super Kings">
+        <div class="logo-year">2023</div>
+    </div>
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    <div style="display: flex;">
+        <div style="flex: 1; margin-right: 30px;">
+            <h3>Orange Cap Winners</h3>
+            <div style="margin-left: 10px;">
+                <img src="static/team_logo/orange_cap.jpeg" alt="Orange Cap Logo" width="100" height="100">
+            </div>
+
+    <table class="runs-table">
+        <tr>
+            <th>Year</th>
+            <th>Player</th>
+            <th>Runs</th>
+        </tr>
+        <tr>
+            <td>2008</td>
+            <td>Shaun Marsh (KXIP)</td>
+            <td>616</td>
+        </tr>
+        <tr>
+            <td>2009</td>
+            <td>Matthew Hayden (CSK)</td>
+            <td>572</td>
+        </tr>
+        <tr>
+            <td>2010</td>
+            <td>Sachin Tendulkar (MI)</td>
+            <td>618</td>
+        </tr>
+        <tr>
+            <td>2011</td>
+            <td>Chris Gayle (RCB)</td>
+            <td>608</td>
+        </tr>
+        <tr>
+            <td>2012</td>
+            <td>Chris Gayle (RCB)</td>
+            <td>733</td>
+        </tr>
+        <tr>
+            <td>2013</td>
+            <td>Michael Hussey (CSK)</td>
+            <td>733</td>
+        </tr>
+        <tr>
+            <td>2014</td>
+            <td>Robin Uthappa (KKR)</td>
+            <td>660</td>
+        </tr>
+        <tr>
+            <td>2015</td>
+            <td>David Warner (SRH)</td>
+            <td>562</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bolder; color: rgb(216, 122, 34);font-size: 13px;">2016</td>
+            <td style="font-weight: bold; color: rgb(216, 122, 34);font-size: 13px;">Virat Kohli (RCB)</td>
+            <td style="font-weight: bold; color: rgb(216, 122, 34);font-size: 13px;">973</td>
+        </tr>
+        <tr>
+            <td>2017</td>
+            <td>David Warner (SRH)</td>
+            <td>641</td>
+        </tr>
+        <tr>
+            <td>2018</td>
+            <td>Kane Williamson (SRH)</td>
+            <td>735</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>David Warner (SRH)</td>
+            <td>692</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>KL Rahul (KXIP)/</td>
+            <td>670</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>Ruturaj Gaikwad (CSK)</td>
+            <td>635</td>
+        </tr>
+        <tr>
+            <td>2022</td>
+            <td>Jos Buttler (RR)</td>
+            <td>863</td>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td>Shubman Gill (GT)</td>
+            <td>890</td>
+        </tr>
+        </div>
+
+
+
+</div>
+    </table>
+        </div>
+        <div style="flex: 1;">
+            <h3>Purple Cap Winners</h3>
+            <div style="margin-left: 10px;margin-bottom:50px;margin-top: 20px;">
+                <img src="static/team_logo/purple_cap.jpeg" alt="Orange Cap Logo" width="100" height="60">
+            </div>
+
+    <table class="runs-table">
+        <tr>
+            <th>Year</th>
+            <th>Player</th>
+            <th>Wickets</th>
+        </tr>
+        <tr>
+            <td>2008</td>
+            <td>Sohail Tanvir (RR)</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>2009</td>
+            <td>R. P. Singh (DEC)</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>2010</td>
+            <td>Pragyan Ojha (DEC)</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>2011</td>
+            <td>Lasith Malinga (MI)</td>
+            <td>28</td>
+        </tr>
+        <tr>
+            <td>2012</td>
+            <td>Morne Morkel (DD)</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bolder; color: rgb(107, 11, 232);font-size: 13px;">2013</td>
+            <td style="font-weight: bolder; color: rgb(107, 11, 232);font-size: 13px;">Dwayne Bravo (CSK)</td>
+            <td style="font-weight: bolder; color: rgb(107, 11, 232);font-size: 13px;">32</td>
+        </tr>
+        <tr>
+            <td>2014</td>
+            <td>Mohit Sharma (CSK)</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>2015</td>
+            <td>Dwayne Bravo (CSK)</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>2016</td>
+            <td>Bhuvneshwar Kumar (SRH)</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>2017</td>
+            <td>Bhuvneshwar Kumar (SRH)</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>2018</td>
+            <td>Andrew Tye (KXIP)</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>Imran Tahir (CSK)</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>Kagiso Rabada (DC)</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bolder; color: rgb(107, 11, 232);font-size: 13px;">2021</td>
+            <td style="font-weight: bolder; color: rgb(107, 11, 232);font-size: 13px;">Harshal Patel (RCB)</td>
+            <td style="font-weight: bolder; color: rgb(107, 11, 232);font-size: 13px;">32</td>
+
+        </tr>
+        <tr>
+            <td>2022</td>
+            <td>Yuzvendra Chahal (RR)</td>
+            <td>27</td>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td>Mohammed Shami (GT)</td>
+            <td>28</td>
+        </tr>
+    </table>
+        </div>
+    </div>
+    
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    <div class="container1">
+        <div style="float: left; width: 50%;">
+            <h4 style="margin-bottom: 20px;">Players with the most number of matches:</h4>
+            <div class="table-container">
+                {{ most_matches | safe }}
+            </div>
+        </div>
+    
+        <div style="float: left; width: 50%;">
+            <h4  style="margin-bottom: 20px;">Players with the most number of different teams:</h4>
+            <div class="table-container">
+                {{ most_teams | safe }}
+            </div>
+        </div>
+    
+        <div style="clear: both;"></div>
+    </div>
+    
+
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+    <div>
+        <h3>IPL Team Rankings</h3>
+
+       
+        <table class="team-rankings-table">
+            <tr>
+                <th>Team</th>
+                <th>2008</th>
+                <th>2009</th>
+                <th>2010</th>
+                <th>2011</th>
+                <th>2012</th>
+                <th>2013</th>
+                <th>2014</th>
+                <th>2015</th>
+                <th>2016</th>
+                <th>2017</th>
+                <th>2018</th>
+                <th>2019</th>
+                <th>2020</th>
+                <th>2021</th>
+                <th>2022</th>
+                <th>2023</th>
+            </tr>
+            <tr>
+                <td>Chennai Super Kings</td>
+                <td>RU</td>
+                <td>SF</td>
+                <td>C</td>
+                <td>C</td>
+                <td>RU</td>
+                <td>RU</td>
+                <td>PO</td>
+                <td>RU</td>
+                <td>Suspended</td>
+                <td>C</td>
+                <td>7th</td>
+                <td>C</td>
+                <td>9th</td>
+                <td>C</td>
+                <td>9th</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>Deccan Chargers</td>
+                <td>8th</td>
+                <td>C</td>
+                <td>4th</td>
+                <td>7th</td>
+                <td>8th</td>
+                <td>–</td>
+            </tr>
+            <tr>
+                <td>Delhi Capitals / Delhi Daredevils</td>
+                <td>SF</td>
+                <td>SF</td>
+                <td>5th</td>
+                <td>10th</td>
+                <td>PO</td>
+                <td>9th</td>
+                <td>8th</td>
+                <td>7th</td>
+                <td>6th</td>
+                <td>6th</td>
+                <td>8th</td>
+                <td>PO</td>
+                <td>RU</td>
+                <td>PO</td>
+                <td>5th</td>
+                <td>9th</td>
+            </tr>
+            <tr>
+                <td>Kolkata Knight Riders</td>
+                <td>6th</td>
+                <td>8th</td>
+                <td>6th</td>
+                <td>PO</td>
+                <td>C</td>
+                <td>7th</td>
+                <td>C</td>
+                <td>5th</td>
+                <td>PO</td>
+                <td>PO</td>
+                <td>PO</td>
+                <td>5th</td>
+                <td>RU</td>
+                <td>7th</td>
+                <td>7th</td>
+            </tr>
+            <tr>
+                <td>Mumbai Indians</td>
+                <td>5th</td>
+                <td>7th</td>
+                <td>RU</td>
+                <td>PO</td>
+                <td>PO</td>
+                <td>C</td>
+                <td>PO</td>
+                <td>C</td>
+                <td>5th</td>
+                <td>C</td>
+                <td>5th</td>
+                <td>C</td>
+                <td>C</td>
+                <td>5th</td>
+                <td>10th</td>
+            </tr>
+            <tr>
+                <td>Punjab Kings / Kings XI Punjab</td>
+                <td>SF</td>
+                <td>5th</td>
+                <td>8th</td>
+                <td>5th</td>
+                <td>6th</td>
+                <td>6th</td>
+                <td>RU</td>
+                <td>8th</td>
+                <td>8th</td>
+                <td>5th</td>
+                <td>7th</td>
+                <td>6th</td>
+                <td>6th</td>
+                <td>6th</td>
+                <td>8th</td>
+            </tr>
+            <tr>
+                <td>Rajasthan Royals</td>
+                <td>C</td>
+                <td>6th</td>
+                <td>7th</td>
+                <td>6th</td>
+                <td>7th</td>
+                <td>3rd</td>
+                <td>5th</td>
+                <td>4th</td>
+                <td>PO</td>
+                <td>4th</td>
+                <td>7th</td>
+                <td>8th</td>
+                <td>7th</td>
+                <td>2nd</td>
+                <td>5th</td>
+                <td>–</td>
+            </tr>
+            <tr>
+                <td>Royal Challengers Bangalore</td>
+                <td>7th</td>
+                <td>RU</td>
+                <td>3rd</td>
+                <td>RU</td>
+                <td>5th</td>
+                <td>5th</td>
+                <td>7th</td>
+                <td>PO</td>
+                <td>RU</td>
+                <td>8th</td>
+                <td>6th</td>
+                <td>8th</td>
+                <td>4th</td>
+                <td>4th</td>
+                <td>3rd</td>
+                <td>6th</td>
+            </tr>
+            <tr>
+                <td>Sunrisers Hyderabad</td>
+                <td>–</td>
+                <td>PO</td>
+                <td>6th</td>
+                <td>6th</td>
+                <td>C</td>
+                <td>PO</td>
+                <td>RU</td>
+                <td>PO</td>
+                <td>PO</td>
+                <td>8th</td>
+                <td>8th</td>
+                <td>10th</td>
+                <td>–</td>
+                <td>–</td>
+                <td>–</td>
+                <td>–</td>
+            </tr>
+            <tr>
+                <td>Gujarat Lions</td>
+                <td>–</td>
+                <td>PO</td>
+                <td>7th</td>
+                <td>–</td>
+            </tr>
+            <tr>
+                <td>Rising Pune Supergiant</td>
+                <td>–</td>
+                <td>7th</td>
+                <td>RU</td>
+                <td>–</td>
+            </tr>
+            <tr>
+                <td>Gujarat Titans</td>
+                <td>–</td>
+                <td>C</td>
+                <td>RU</td>
+            </tr>
+            <tr>
+                <td>Lucknow Super Giants</td>
+                <td>–</td>
+                <td>PO</td>
+                <td>PO</td>
+            </tr>
+        </table>
+    </div>
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+    <div>
+        <h3>Cricket Stadiums</h3>
+        <div class="stadium-table-container">   
+        <table class="stadium-table">
+            <tr>
+                <th>Ground</th>
+                <th>City</th>
+                <th>Country</th>
+                <th>Match Hosted</th>
+            </tr>
+            <tr>
+                <td>Wankhede Stadium</td>
+                <td>Mumbai</td>
+                <td>India</td>
+                <td>109</td>
+            </tr>
+            <tr>
+                <td>M Chinnaswamy Stadium</td>
+                <td>Bengaluru</td>
+                <td>India</td>
+                <td>88</td>
+            </tr>
+            <tr>
+                <td>Eden Gardens</td>
+                <td>Kolkata</td>
+                <td>India</td>
+                <td>86</td>
+            </tr>
+            <tr>
+                <td>Arun Jaitley Stadium</td>
+                <td>Delhi</td>
+                <td>India</td>
+                <td>84</td>
+            </tr>
+            <tr>
+                <td>MA Chidambaram Stadium</td>
+                <td>Chennai</td>
+                <td>India</td>
+                <td>76</td>
+            </tr>
+            <tr>
+                <td>Rajiv Gandhi International Stadium</td>
+                <td>Hyderabad</td>
+                <td>India</td>
+                <td>71</td>
+            </tr>
+            <tr>
+                <td>Punjab Cricket Association IS Bindra Stadium</td>
+                <td>Mohali, Chandigarh</td>
+                <td>India</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>Sawai Mansingh Stadium</td>
+                <td>Jaipur</td>
+                <td>India</td>
+                <td>52</td>
+            </tr>
+            <tr>
+                <td>Maharashtra Cricket Association Stadium</td>
+                <td>Pune</td>
+                <td>India</td>
+                <td>51</td>
+            </tr>
+            <tr>
+                <td>Dubai International Cricket Stadium</td>
+                <td>Dubai</td>
+                <td>United Arab Emirates</td>
+                <td>46</td>
+            </tr>
+            <tr>
+                <td>Dr DY Patil Sports Academy</td>
+                <td>Mumbai</td>
+                <td>India</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>Sheikh Zayed Stadium</td>
+                <td>Abu Dhabi</td>
+                <td>United Arab Emirates</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>Sharjah Cricket Stadium</td>
+                <td>Sharjah</td>
+                <td>United Arab Emirates</td>
+                <td>28</td>
+            </tr>
+            <tr>
+                <td>Narendra Modi Stadium</td>
+                <td>Ahmedabad</td>
+                <td>India</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>Brabourne Stadium</td>
+                <td>Mumbai</td>
+                <td>India</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>Kingsmead</td>
+                <td>Durban</td>
+                <td>South Africa</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Barabati Stadium</td>
+                <td>Cuttack</td>
+                <td>India</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>Dr YS Rajasekhara Reddy Cricket Stadium</td>
+                <td>Visakhapatnam</td>
+                <td>India</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>Himachal Pradesh Cricket Association Stadium</td>
+                <td>Dharamsala</td>
+                <td>India</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>SuperSport Park</td>
+                <td>Centurion</td>
+                <td>South Africa</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>Saurashtra Cricket Association Stadium</td>
+                <td>Khandheri, Rajkot</td>
+                <td>India</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Holkar Cricket Stadium</td>
+                <td>Indore</td>
+                <td>India</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Wanderers Stadium</td>
+                <td>Johannesburg</td>
+                <td>South Africa</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>BRSABV Ekana Cricket Stadium</td>
+                <td>Lucknow</td>
+                <td>India</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>JSCA International Stadium Complex</td>
+                <td>Ranchi</td>
+                <td>India</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Newlands</td>
+                <td>Cape Town</td>
+                <td>South Africa</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>St George's Park</td>
+                <td>Port Elizabeth</td>
+                <td>South Africa</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Shaheed Veer Narayan Sing International Stadium</td>
+                <td>Raipur</td>
+                <td>India</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Nehru Stadium (Kochi)</td>
+                <td>Kochi</td>
+                <td>India</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Buffalo Park</td>
+                <td>East London</td>
+                <td>South Africa</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Green Park</td>
+                <td>Kanpur</td>
+                <td>India</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Diamond Oval</td>
+                <td>Kimberley</td>
+                <td>South Africa</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Vidarbha Cricket Association Stadium</td>
+                <td>Nagpur</td>
+                <td>India</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Barsapara Cricket Stadium</td>
+                <td>Guwahati</td>
+                <td>India</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Mangaung Oval</td>
+                <td>Bloemfontein</td>
+                <td>South Africa</td>
+                <td>2</td>
+            </tr>
+        </table>
+        </div>
+    </div>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    <div class="container2">
+        <div class="heat-map-unique">
+            <img src="{{ url_for('static', filename='graph_images/total_unique_players_for_team_by_season.png') }}" alt="IPL">
+        </div>
+    </div>
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    {% endblock %}
+

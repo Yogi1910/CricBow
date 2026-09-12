@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2d02ce5293ff1eb09c92218a78fd5b47 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2d02ce5293ff1eb09c92218a78fd5b47" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2d02ce5293ff1eb09c92218a78fd5b47 = L.map(
+                "map_2d02ce5293ff1eb09c92218a78fd5b47",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c6ec3bf70d049211d75af9379e2194a2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2d02ce5293ff1eb09c92218a78fd5b47);
+        
+    
+            var marker_5387af5cf5972d587c96b6e94af46784 = L.marker(
+                [13.0827, 80.2707],
+                {}
+            ).addTo(map_2d02ce5293ff1eb09c92218a78fd5b47);
+        
+    
+            var div_icon_96bef632b0569f0a45f1060c812f1119 = L.divIcon({"className": "empty", "html": "\u003cdiv\u003e\u003cimg src=\u0027static/team_logo/Chennai Super Kings.jpeg\u0027 alt=\u0027Chennai Super Kings\u0027 width=\u002760px\u0027 height=\u002760px\u0027/\u003e\u003cbr/\u003eChennai Super Kings\u003c/div\u003e"});
+            marker_5387af5cf5972d587c96b6e94af46784.setIcon(div_icon_96bef632b0569f0a45f1060c812f1119);
+        
+    
+        var popup_98433e61519ffc36ec5c22002af8309c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7abc9cbd25839be4905386586badbe5a = $(`<div id="html_7abc9cbd25839be4905386586badbe5a" style="width: 100.0%; height: 100.0%;">Chennai Super Kings - Chennai, Tamil Nadu</div>`)[0];
+                popup_98433e61519ffc36ec5c22002af8309c.setContent(html_7abc9cbd25839be4905386586badbe5a);
+            
+        
+
+        marker_5387af5cf5972d587c96b6e94af46784.bindPopup(popup_98433e61519ffc36ec5c22002af8309c)
+        ;
+
+        
+    
+    
+            var marker_5a3e4066cc6371ff7519324cd2e18b92 = L.marker(
+                [28.6139, 77.209],
+                {}
+            ).addTo(map_2d02ce5293ff1eb09c92218a78fd5b47);
+        
+    
+            var div_icon_df4dcf893431a14876331b0847595b42 = L.divIcon({"className": "empty", "html": "\u003cdiv\u003e\u003cimg src=\u0027static/team_logo/Delhi Capitals.jpeg\u0027 alt=\u0027Delhi Capitals\u0027 width=\u002760px\u0027 height=\u002760px\u0027/\u003e\u003cbr/\u003eDelhi Capitals\u003c/div\u003e"});
+            marker_5a3e4066cc6371ff7519324cd2e18b92.setIcon(div_icon_df4dcf893431a14876331b0847595b42);
+        
+    
+        var popup_4c16b07e5f8bd2a790995d80f705c302 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4f8378b08bed2954830ce125a98b9c8 = $(`<div id="html_b4f8378b08bed2954830ce125a98b9c8" style="width: 100.0%; height: 100.0%;">Delhi Capitals - New Delhi, Delhi</div>`)[0];
+                popup_4c16b07e5f8bd2a790995d80f705c302.setContent(html_b4f8378b08bed2954830ce125a98b9c8);
+            
+        
+
+        marker_5a3e4066cc6371ff7519324cd2e18b92.bindPopup(popup_4c16b07e5f8bd2a790995d80f705c302)
+        ;
+
+        
+    
+    
+            var marker_93ef228c2b7fcd5b3171f89441ecfccf = L.marker(
+                [23.0225, 72.5714],
+                {}
+            ).addTo(map_2d02ce5293ff1eb09c92218a78fd5b47);
+        
+    
+            var div_icon_f033bd201eda5ae7842fa53d7c9a43ee = L.divIcon({"className": "empty", "html": "\u003cdiv\u003e\u003cimg src=\u0027static/team_logo/Gujarat Titans.jpeg\u0027 alt=\u0027Gujarat Titans\u0027 width=\u002760px\u0027 height=\u002760px\u0027/\u003e\u003cbr/\u003eGujarat Titans\u003c/div\u003e"});
+            marker_93ef228c2b7fcd5b3171f89441ecfccf.setIcon(div_icon_f033bd201eda5ae7842fa53d7c9a43ee);
+        
+    
+        var popup_199086c1dce9fec4c76dbb601bc17ea9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be70e0c80d2ebf45042a75c2a8f6d1d4 = $(`<div id="html_be70e0c80d2ebf45042a75c2a8f6d1d4" style="width: 100.0%; height: 100.0%;">Gujarat Titans - Ahmedabad, Gujarat</div>`)[0];
+                popup_199086c1dce9fec4c76dbb601bc17ea9.setContent(html_be70e0c80d2ebf45042a75c2a8f6d1d4);
+            
+        
+
+        marker_93ef228c2b7fcd5b3171f89441ecfccf.bindPopup(popup_199086c1dce9fec4c76dbb601bc17ea9)
+        ;
+
+        
+    
+    
+            var marker_c85d45ef48466c7e524a61656f1b5494 = L.marker(
+                [22.5726, 88.3639],
+                {}
+            ).addTo(map_2d02ce5293ff1eb09c92218a78fd5b47);
+        
+    
+            var div_icon_1ed76e7a4a3052b57833a055a70e5912 = L.divIcon({"className": "empty", "html": "\u003cdiv\u003e\u003cimg src=\u0027static/team_logo/Kolkata Knight Riders.jpeg\u0027 alt=\u0027Kolkata Knight Riders\u0027 width=\u002760px\u0027 height=\u002760px\u0027/\u003e\u003cbr/\u003eKolkata Knight Riders\u003c/div\u003e"});
+            marker_c85d45ef48466c7e524a61656f1b5494.setIcon(div_icon_1ed76e7a4a3052b57833a055a70e5912);
+        
+    
+        var popup_89d79c7c48d30a89c897d84a3d3953ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5f0feb8fd01171cd1e42975dda7c129 = $(`<div id="html_f5f0feb8fd01171cd1e42975dda7c129" style="width: 100.0%; height: 100.0%;">Kolkata Knight Riders - Kolkata, West Bengal</div>`)[0];
+                popup_89d79c7c48d30a89c897d84a3d3953ca.setContent(html_f5f0feb8fd01171cd1e42975dda7c129);
+            
+        
+
+        marker_c85d45ef48466c7e524a61656f1b5494.bindPopup(popup_89d79c7c48d30a89c897d84a3d3953ca)
+        ;
+
+        
+    
+    
+            var marker_bb789ff8d88f5903023ce887a4642d64 = L.marker(
+                [26.8467, 80.9462],
+                {}
+            ).addTo(map_2d02ce5293ff1eb09c92218a78fd5b47);
+        
+    
+            var div_icon_d1741f9a7962e2539119c60dd0feda52 = L.divIcon({"className": "empty", "html": "\u003cdiv\u003e\u003cimg src=\u0027static/team_logo/Lucknow Super Giants.jpeg\u0027 alt=\u0027Lucknow Super Giants\u0027 width=\u002760px\u0027 height=\u002760px\u0027/\u003e\u003cbr/\u003eLucknow Super Giants\u003c/div\u003e"});
+            marker_bb789ff8d88f5903023ce887a4642d64.setIcon(div_icon_d1741f9a7962e2539119c60dd0feda52);
+        
+    
+        var popup_7bb19040b558a690ff110b87da0ef85a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67e5354a39b3e1d2ce0661b5beeecd7b = $(`<div id="html_67e5354a39b3e1d2ce0661b5beeecd7b" style="width: 100.0%; height: 100.0%;">Lucknow Super Giants - Lucknow, Uttar Pradesh</div>`)[0];
+                popup_7bb19040b558a690ff110b87da0ef85a.setContent(html_67e5354a39b3e1d2ce0661b5beeecd7b);
+            
+        
+
+        marker_bb789ff8d88f5903023ce887a4642d64.bindPopup(popup_7bb19040b558a690ff110b87da0ef85a)
+        ;
+
+        
+    
+    
+            var marker_724a9e2f74c03210e22923e377247fb3 = L.marker(
+                [19.076, 72.8777],
+                {}
+            ).addTo(map_2d02ce5293ff1eb09c92218a78fd5b47);
+        
+    
+            var div_icon_264f2453cecf6c68749600d74081aa97 = L.divIcon({"className": "empty", "html": "\u003cdiv\u003e\u003cimg src=\u0027static/team_logo/Mumbai Indians.jpeg\u0027 alt=\u0027Mumbai Indians\u0027 width=\u002760px\u0027 height=\u002760px\u0027/\u003e\u003cbr/\u003eMumbai Indians\u003c/div\u003e"});
+            marker_724a9e2f74c03210e22923e377247fb3.setIcon(div_icon_264f2453cecf6c68749600d74081aa97);
+        
+    
+        var popup_1e71a8237c2d68a9e3a58d795526db8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0eb317f99b69efe36b3711a4d240f7d8 = $(`<div id="html_0eb317f99b69efe36b3711a4d240f7d8" style="width: 100.0%; height: 100.0%;">Mumbai Indians - Mumbai, Maharashtra</div>`)[0];
+                popup_1e71a8237c2d68a9e3a58d795526db8b.setContent(html_0eb317f99b69efe36b3711a4d240f7d8);
+            
+        
+
+        marker_724a9e2f74c03210e22923e377247fb3.bindPopup(popup_1e71a8237c2d68a9e3a58d795526db8b)
+        ;
+
+        
+    
+    
+            var marker_bcb331f698081bb7b89da3d23ce978e9 = L.marker(
+                [30.7046, 76.7179],
+                {}
+            ).addTo(map_2d02ce5293ff1eb09c92218a78fd5b47);
+        
+    
+            var div_icon_9840e5d8ca7b2d74d962518ca3b0a885 = L.divIcon({"className": "empty", "html": "\u003cdiv\u003e\u003cimg src=\u0027static/team_logo/Punjab Kings.jpeg\u0027 alt=\u0027Punjab Kings\u0027 width=\u002760px\u0027 height=\u002760px\u0027/\u003e\u003cbr/\u003ePunjab Kings\u003c/div\u003e"});
+            marker_bcb331f698081bb7b89da3d23ce978e9.setIcon(div_icon_9840e5d8ca7b2d74d962518ca3b0a885);
+        
+    
+        var popup_cf8bda6183e1124ce1a9fdbcb34e54b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09b4b0693ca852ba74dd7214dde062b6 = $(`<div id="html_09b4b0693ca852ba74dd7214dde062b6" style="width: 100.0%; height: 100.0%;">Punjab Kings - Mohali, Punjab</div>`)[0];
+                popup_cf8bda6183e1124ce1a9fdbcb34e54b8.setContent(html_09b4b0693ca852ba74dd7214dde062b6);
+            
+        
+
+        marker_bcb331f698081bb7b89da3d23ce978e9.bindPopup(popup_cf8bda6183e1124ce1a9fdbcb34e54b8)
+        ;
+
+        
+    
+    
+            var marker_11b463b1396082dc1e7387363cd0f2eb = L.marker(
+                [26.9124, 75.7873],
+                {}
+            ).addTo(map_2d02ce5293ff1eb09c92218a78fd5b47);
+        
+    
+            var div_icon_9a40c78e21a2534c7a1ac662a22443ae = L.divIcon({"className": "empty", "html": "\u003cdiv\u003e\u003cimg src=\u0027static/team_logo/Rajasthan Royals.jpeg\u0027 alt=\u0027Rajasthan Royals\u0027 width=\u002760px\u0027 height=\u002760px\u0027/\u003e\u003cbr/\u003eRajasthan Royals\u003c/div\u003e"});
+            marker_11b463b1396082dc1e7387363cd0f2eb.setIcon(div_icon_9a40c78e21a2534c7a1ac662a22443ae);
+        
+    
+        var popup_a0d0686d7449ab40792f8c1ae829e3c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_818742296974a36c0b0ba7fc28486f1b = $(`<div id="html_818742296974a36c0b0ba7fc28486f1b" style="width: 100.0%; height: 100.0%;">Rajasthan Royals - Jaipur, Rajasthan</div>`)[0];
+                popup_a0d0686d7449ab40792f8c1ae829e3c4.setContent(html_818742296974a36c0b0ba7fc28486f1b);
+            
+        
+
+        marker_11b463b1396082dc1e7387363cd0f2eb.bindPopup(popup_a0d0686d7449ab40792f8c1ae829e3c4)
+        ;
+
+        
+    
+    
+            var marker_8137a6dc38a612d80da52fea8cf54276 = L.marker(
+                [12.9716, 77.5946],
+                {}
+            ).addTo(map_2d02ce5293ff1eb09c92218a78fd5b47);
+        
+    
+            var div_icon_5d4333f28e121cd15b3dc2973a4cf026 = L.divIcon({"className": "empty", "html": "\u003cdiv\u003e\u003cimg src=\u0027static/team_logo/Royal Challengers Bangalore.jpeg\u0027 alt=\u0027Royal Challengers Bangalore\u0027 width=\u002760px\u0027 height=\u002760px\u0027/\u003e\u003cbr/\u003eRoyal Challengers Bangalore\u003c/div\u003e"});
+            marker_8137a6dc38a612d80da52fea8cf54276.setIcon(div_icon_5d4333f28e121cd15b3dc2973a4cf026);
+        
+    
+        var popup_a53d08152e457df7c9c3af829221d2fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a7410afd320eb8a6c44ae19822758cb = $(`<div id="html_6a7410afd320eb8a6c44ae19822758cb" style="width: 100.0%; height: 100.0%;">Royal Challengers Bangalore - Bangalore, Karnataka</div>`)[0];
+                popup_a53d08152e457df7c9c3af829221d2fb.setContent(html_6a7410afd320eb8a6c44ae19822758cb);
+            
+        
+
+        marker_8137a6dc38a612d80da52fea8cf54276.bindPopup(popup_a53d08152e457df7c9c3af829221d2fb)
+        ;
+
+        
+    
+    
+            var marker_108a9a9ad11020a6410cf7216c2e944e = L.marker(
+                [17.385, 78.4867],
+                {}
+            ).addTo(map_2d02ce5293ff1eb09c92218a78fd5b47);
+        
+    
+            var div_icon_9eab00a424b368f71f2a96d84e58af9c = L.divIcon({"className": "empty", "html": "\u003cdiv\u003e\u003cimg src=\u0027static/team_logo/Sunrisers Hyderabad.jpeg\u0027 alt=\u0027Sunrisers Hyderabad\u0027 width=\u002760px\u0027 height=\u002760px\u0027/\u003e\u003cbr/\u003eSunrisers Hyderabad\u003c/div\u003e"});
+            marker_108a9a9ad11020a6410cf7216c2e944e.setIcon(div_icon_9eab00a424b368f71f2a96d84e58af9c);
+        
+    
+        var popup_6aa8672e8fd7250ba3f7fd8bf682ad37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b172c1022866da316be2d55d2225642 = $(`<div id="html_4b172c1022866da316be2d55d2225642" style="width: 100.0%; height: 100.0%;">Sunrisers Hyderabad - Hyderabad, Telangana</div>`)[0];
+                popup_6aa8672e8fd7250ba3f7fd8bf682ad37.setContent(html_4b172c1022866da316be2d55d2225642);
+            
+        
+
+        marker_108a9a9ad11020a6410cf7216c2e944e.bindPopup(popup_6aa8672e8fd7250ba3f7fd8bf682ad37)
+        ;
+
+        
+    
+</script>
+</html>

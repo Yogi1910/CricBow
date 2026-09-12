@@ -1,0 +1,44 @@
+{% extends "index.html" %}
+
+{% block title %}Other Page{% endblock %}
+{% block heading %}CricBow - Others{% endblock %}
+
+{% block content %}
+
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='base.css') }}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+<div class="content">
+    <h2 style="color: darkgreen;">Welcome to CricBow</h2>
+    <p>Your Ultimate Destination for In-Depth Cricket Analysis</p>
+    
+    <div class="feature-box" id="explore-box">
+        <h2>Explore IPL Data</h2>
+        <p>Dive into the fascinating world of IPL cricket with our comprehensive data analysis. Explore player and team profiles, performance metrics, and gameplay strategies that provide deep insights into the game's dynamics. From historical statistics to real-time updates, our page offers a competitive edge for enthusiasts, analysts, and fantasy cricket players. Unlock the secrets behind IPL's thrilling moments and gain a deeper understanding of this premier cricket tournament.</p>
+        <a href="{{ url_for('player') }}" class="cta-button">Explore Player Profiles</a>
+        <a href="{{ url_for('team') }}" class="cta-button">Explore Team Profiles</a>
+    </div>
+    
+    <div class="feature-box" id="stats-box">
+        <h2>IPL Statistics</h2>
+        <p>Experience the IPL like never before as you venture into the immersive world of statistics and trends. Unearth hidden gems through advanced analytics, dynamic visualizations, and interactive charts that paint a vivid picture of player prowess, team strategies, and the ever-changing cricket landscape. Arm yourself with data-driven insights to dominate fantasy cricket and become a true IPL aficionado.</p>
+        <a href="{{ url_for('ipl') }}" class="cta-button">Explore IPL Stats</a>
+        <a href="{{ url_for('fantasy') }}" class="cta-button">Enhance Fantasy Predictions</a>
+    </div>
+    
+    <div class="feature-box" id="news-box">
+        <h2>Stay Informed</h2>
+        <p>Stay ahead of the cricketing curve with our one-stop destination for the latest cricket news, articles, and captivating stories from the global cricketing arena. Our carefully curated content offers a comprehensive perspective on the game, featuring thrilling match highlights, exclusive player interviews, and intriguing behind-the-scenes narratives that immerse you in the heart of the action.</p>
+        <a href="{{ url_for('news') }}" class="cta-button">Read News & Articles</a>
+    </div>
+    
+    <div class="feature-box" id="records-box">
+        <h2>Records & More</h2>
+        <p>Embark on a captivating journey to unearth the hidden treasures of cricket - from extraordinary records to remarkable milestones and intriguing insights. Our collection of unique and lesser-known facts adds an extra layer of delight to your cricketing experience, enhancing your passion for the game.</p>
+        <a href="{{ url_for('records') }}" class="cta-button">Discover More</a>
+    </div>
+</div>
+<script src="{{ url_for('static', filename='base.js') }}"></script>
+
+{% endblock %}

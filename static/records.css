@@ -1,0 +1,149 @@
+/* static/others.css */
+
+.button-section {
+    display: flex;
+}
+
+.button-section button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.button-section button.active {
+    background-color: #007bff; /* Active button color */
+    color: #fff; /* Text color for active button */
+}
+
+.button-section button:not(.active):hover {
+    background-color: #f0f0f0; /* Hover color for passive buttons */
+}
+
+#odiButton:hover::before {
+    content: "Coming Soon";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    top: -30px; /* Adjust this value to position the text as desired */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    white-space: nowrap;
+}
+
+
+/* Apply some general styles to the table containers */
+.table-container {
+    /* This will make the containers take equal space */
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #f5f5f5, #e0e0e0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-sizing: border-box; /* Ensure padding is included in width */
+    width: 550px;
+}
+
+
+/* Hover effect */
+.table-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+h4 {
+    color: darkgreen;
+    font-weight:bolder;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.table-container h3 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 24px;
+    text-decoration: underline;
+    margin-bottom: 50px;    
+    margin-top: 10px;
+}
+
+/* Apply styles to each table wrapper */
+.table-wrapper {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 300px;
+    overflow: auto;
+    font-size: 12px;
+}
+
+/* Style the headings of each table */
+.table-wrapper h4 {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #4c67d6;
+    color: #4c67d6;
+}
+
+/* Apply styles to the tables */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Add color and hover effect to table rows */
+.table tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.table tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Flex layout for the containers */
+.containers-wrapper1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+    width: 100%; /* Ensure the wrappers take up the full width */
+}
+
+
+.containers-wrapper2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+    width: 100%; /* Ensure the wrappers take up the full width */
+    background-color: antiquewhite      ;
+}
+
+/* Apply some general styles to the table containers */
+
+/* Hover effect */
+
+/* ... rest of your styles ... */
+
+/* Flex layout for the containers */

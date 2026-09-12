@@ -1,0 +1,19 @@
+<!-- article.html -->
+
+{% extends "index.html" %}
+
+{% block heading %}CricBow News{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='article.css') }}">
+<div class="full-article">
+    <article class="news">
+        <h2 class="news-title">{{ news_article.title }}</h2>
+        <div class="news-content">
+            {{ news_article.content|safe }}
+        </div>
+    </article>
+</div>
+
+<!-- <script src="{{ url_for('static', filename='news.js') }}"></script> -->
+{% endblock %}

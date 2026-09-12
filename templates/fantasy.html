@@ -1,0 +1,309 @@
+    {% extends "index.html" %}
+    {% block title %}Fantasy Cricket Team{% endblock %}
+    {% block heading %}CricBow - Fantasy Cricket Team{% endblock %}
+
+    {% block content %}
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="static/fantasy.js"></script>
+    <script src="static/fantasy1.js"></script>
+    <script src="static/fantasy2.js"></script>
+    <script src="static/fantasy3.js"></script>
+    <script src="static/fantasy4.js"></script>
+    
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='fantasy.css') }}">
+
+
+    <h1 style="text-align: center; color: green; font-size: 2em; margin-bottom: 0em; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Fantasy Capsule</h1>
+    <h5 style="text-align: center; color: #666; font-weight: 300; font-size: 0.8em; margin-top: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Get your fantasy predictions right...</h5>
+
+
+    <h3>Head to Head (teams)</h3>
+    <div class="top-container">
+      <div class="selected-team">
+        
+      </div>
+      <div class="team-container1">
+
+        <form method="post" action="/fantasy">
+                <button class="team-button {% if team1 == 'Chennai Super Kings' %}team-button-selected{% endif %}" name="team1" value="Chennai Super Kings">CSK</button>
+                <button class="team-button {% if team1 == 'Delhi Capitals' %}team-button-selected{% endif %}" name="team1" value="Delhi Capitals">DC</button>
+                <button class="team-button {% if team1 == 'Punjab Kings' %}team-button-selected{% endif %}" name="team1" value="Punjab Kings">PK</button>
+                <button class="team-button {% if team1 == 'Kolkata Knight Riders' %}team-button-selected{% endif %}" name="team1" value="Kolkata Knight Riders">KKR</button>
+                <button class="team-button {% if team1 == 'Mumbai Indians' %}team-button-selected{% endif %}" name="team1" value="Mumbai Indians">MI</button>
+                <button class="team-button {% if team1 == 'Rajasthan Royals' %}team-button-selected{% endif %}" name="team1" value="Rajasthan Royals">RR</button>
+                <button class="team-button {% if team1 == 'Royal Challengers Bangalore' %}team-button-selected{% endif %}" name="team1" value="Royal Challengers Bangalore">RCB</button>
+                <button class="team-button {% if team1 == 'Sunrisers Hyderabad' %}team-button-selected{% endif %}" name="team1" value="Sunrisers Hyderabad">SRH</button>
+                <button class="team-button {% if team1 == 'Lucknow Super Giants' %}team-button-selected{% endif %}" name="team1" value="Lucknow Super Giants">LSG</button>
+                <button class="team-button {% if team1 == 'Gujarat Titans' %}team-button-selected{% endif %}" name="team1" value="Gujarat Titans">GT</button>
+
+          <!-- Add buttons for more teams as needed -->
+        </form>
+      </div>
+      <div class="data-container">
+        {% if team1 %}
+          <div class="team-logo-container team-logo-container-left">
+            <img src="{{ url_for('static', filename='team_logo/' + team1 + '.jpeg') }}" alt="{{ team1 }} Logo">
+          </div>
+
+      
+        {% endif %}
+      
+        {{ statistics_html | safe }}
+      
+        {% if team2 %}
+          <div class="team-logo-container team-logo-container-right">
+            <img src="{{ url_for('static', filename='team_logo/' + team2 + '.jpeg') }}" alt="{{ team2 }} Logo">
+          </div>
+        {% endif %}
+      </div>
+      
+      <div class="team-container2">
+        <form method="post" action="/fantasy">
+          <button class="team-button {% if team2 == 'Chennai Super Kings' %}team-button-selected{% endif %}" name="team2" value="Chennai Super Kings">CSK</button>
+          <button class="team-button {% if team2 == 'Delhi Capitals' %}team-button-selected{% endif %}" name="team2" value="Delhi Capitals">DC</button>
+          <button class="team-button {% if team2 == 'Punjab Kings' %}team-button-selected{% endif %}" name="team2" value="Punjab Kings">PK</button>
+          <button class="team-button {% if team2 == 'Kolkata Knight Riders' %}team-button-selected{% endif %}" name="team2" value="Kolkata Knight Riders">KKR</button>
+          <button class="team-button {% if team2 == 'Mumbai Indians' %}team-button-selected{% endif %}" name="team2" value="Mumbai Indians">MI</button>
+          <button class="team-button {% if team2 == 'Rajasthan Royals' %}team-button-selected{% endif %}" name="team2" value="Rajasthan Royals">RR</button>
+          <button class="team-button {% if team2 == 'Royal Challengers Bangalore' %}team-button-selected{% endif %}" name="team2" value="Royal Challengers Bangalore">RCB</button>
+          <button class="team-button {% if team2 == 'Sunrisers Hyderabad' %}team-button-selected{% endif %}" name="team2" value="Sunrisers Hyderabad">SRH</button>
+          <button class="team-button {% if team2 == 'Lucknow Super Giants' %}team-button-selected{% endif %}" name="team2" value="Lucknow Super Giants">LSG</button>
+          <button class="team-button {% if team2 == 'Gujarat Titans' %}team-button-selected{% endif %}" name="team2" value="Gujarat Titans">GT</button>
+          <!-- Add buttons for more teams as needed -->
+          <input type="hidden" name="team1" value="{{ team1 }}">
+          {% if team1 and team2 %}
+          
+          {% endif %}
+        </form>
+        
+      </div>
+    </div>
+
+
+<h3>Stadium Details</h3>
+
+<div class="stadium-container">
+  <form id="stadium-form">
+      <div class="button-container">
+        <!-- Buttons for stadiums -->
+        <button type="button" class="stadium-button" data-stadium="Arun Jaitley Stadium Delhi">Arun Jaitley Stadium Delhi</button>
+        <button type="button" class="stadium-button" data-stadium="Barsapara Cricket Stadium Guwahati">Barsapara Cricket Stadium Guwahati</button>
+        <button type="button" class="stadium-button" data-stadium="Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium Lucknow">Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium Lucknow</button>
+        <button type="button" class="stadium-button" data-stadium="Brabourne Stadium Mumbai">Brabourne Stadium Mumbai</button>
+        <button type="button" class="stadium-button" data-stadium="Dr DY Patil Sports Academy Mumbai">Dr DY Patil Sports Academy Mumbai</button>
+        <button type="button" class="stadium-button" data-stadium="Eden Gardens Kolkata">Eden Gardens Kolkata</button>
+        <button type="button" class="stadium-button" data-stadium="Himachal Pradesh Cricket Association Stadium Dharamsala">Himachal Pradesh Cricket Association Stadium Dharamsala</button>
+        <button type="button" class="stadium-button" data-stadium="M Chinnaswamy Stadium Bengaluru">M Chinnaswamy Stadium Bengaluru</button>
+        <button type="button" class="stadium-button" data-stadium="MA Chidambaram Stadium Chepauk Chennai">MA Chidambaram Stadium Chepauk Chennai</button>
+        <button type="button" class="stadium-button" data-stadium="Maharashtra Cricket Association Stadium Pune">Maharashtra Cricket Association Stadium Pune</button>
+        <button type="button" class="stadium-button" data-stadium="Narendra Modi Stadium Ahmedabad">Narendra Modi Stadium Ahmedabad</button>
+        <button type="button" class="stadium-button" data-stadium="Punjab Cricket Association IS Bindra Stadium Mohali Chandigarh">Punjab Cricket Association IS Bindra Stadium Mohali Chandigarh</button>
+        <button type="button" class="stadium-button" data-stadium="Rajiv Gandhi International Stadium Uppal Hyderabad">Rajiv Gandhi International Stadium Uppal Hyderabad</button>
+        <button type="button" class="stadium-button" data-stadium="Sardar Patel Stadium Motera">Sardar Patel Stadium Motera</button>
+        <button type="button" class="stadium-button" data-stadium="Saurashtra Cricket Association Stadium">Saurashtra Cricket Association Stadium</button>
+        <button type="button" class="stadium-button" data-stadium="Sawai Mansingh Stadium Jaipur">Sawai Mansingh Stadium Jaipur</button>
+        <!-- <button type="button" class="stadium-button" data-stadium="Vidarbha Cricket Association Stadium Jamtha">Vidarbha Cricket Association Stadium Jamtha</button> -->
+        <button type="button" class="stadium-button" data-stadium="Wankhede Stadium Mumbai">Wankhede Stadium Mumbai</button>
+        <!-- <button type="button" class="stadium-button" data-stadium="Zayed Cricket Stadium Abu Dhabi">Zayed Cricket Stadium Abu Dhabi</button> -->
+        <!-- <button type="button" class="stadium-button" data-stadium="Buffalo Park">Buffalo Park</button> -->
+        <!-- <button type="button" class="stadium-button" data-stadium="De Beers Diamond Oval">De Beers Diamond Oval</button> -->
+        <!-- <button type="button" class="stadium-button" data-stadium="Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium">Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium</button> -->
+        <!-- <button type="button" class="stadium-button" data-stadium="Dubai International Cricket Stadium">Dubai International Cricket Stadium</button> -->
+        <button type="button" class="stadium-button" data-stadium="Eden Gardens">Eden Gardens</button>
+        <button type="button" class="stadium-button" data-stadium="Green Park">Green Park</button>
+        <button type="button" class="stadium-button" data-stadium="Himachal Pradesh Cricket Association Stadium">Himachal Pradesh Cricket Association Stadium</button>
+        <!-- <button type="button" class="stadium-button" data-stadium="Holkar Cricket Stadium">Holkar Cricket Stadium</button>
+        <button type="button" class="stadium-button" data-stadium="JSCA International Stadium Complex">JSCA International Stadium Complex</button>
+        <button type="button" class="stadium-button" data-stadium="Kingsmead">Kingsmead</button>
+        <button type="button" class="stadium-button" data-stadium="Nehru Stadium">Nehru Stadium</button>
+        <button type="button" class="stadium-button" data-stadium="New Wanderers Stadium">New Wanderers Stadium</button>
+        <button type="button" class="stadium-button" data-stadium="Newlands">Newlands</button>
+        <button type="button" class="stadium-button" data-stadium="OUTsurance Oval">OUTsurance Oval</button>
+        <button type="button" class="stadium-button" data-stadium="Shaheed Veer Narayan Singh International Stadium">Shaheed Veer Narayan Singh International Stadium</button>
+        <button type="button" class="stadium-button" data-stadium="Sharjah Cricket Stadium">Sharjah Cricket Stadium</button>
+        <button type="button" class="stadium-button" data-stadium="Sheikh Zayed Stadium">Sheikh Zayed Stadium</button>
+        <button type="button" class="stadium-button" data-stadium="St George's Park">St George's Park</button>
+        <button type="button" class="stadium-button" data-stadium="Subrata Roy Sahara Stadium">Subrata Roy Sahara Stadium</button>
+        <button type="button" class="stadium-button" data-stadium="SuperSport Park">SuperSport Park</button> -->
+
+      </div>
+    </form>
+    <div class="summary-container" id="summary-container">
+        {{analysis_table|safe}}
+    </div>
+</div>
+        
+      
+    
+
+
+
+
+
+<h3>Last 5 matches for all batsmen</h3>
+<form class="batsman-form" method="post" onsubmit="return false;">
+    <select id="batsmanTeamSelect" name="team3">
+        <option value="Chennai Super Kings">Chennai Super Kings</option>
+        <option value="Delhi Capitals">Delhi Capitals</option>
+        <option value="Punjab Kings">Punjab Kings</option>
+        <option value="Kolkata Knight Riders">Kolkata Knight Riders</option>
+        <option value="Mumbai Indians">Mumbai Indians</option>
+        <option value="Rajasthan Royals">Rajasthan Royals</option>
+        <option value="Royal Challengers Bangalore">Royal Challengers Bangalore</option>
+        <option value="Sunrisers Hyderabad">Sunrisers Hyderabad</option>
+        <option value="Lucknow Super Giants">Lucknow Super Giants</option>
+        <option value="Gujarat Titans">Gujarat Titans</option>
+    </select>
+    <input type="submit" value="Go!">
+</form>
+
+<div id="batsmanTable">
+    <div class="spinner-container" id="batsmanLoadingSpinner" style="display: none;">
+        <div class="spinner"></div>
+    </div>
+    <div id="batsmanTableContent">
+        <div id="batsmanTable">
+            {{ batsman_last5 | safe }}
+            <!-- Your batsman_last5 table will be inserted here -->
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+      <h3>Last 5 matches for all bowlers</h3>
+      <form class="bowler-form" method="post" onsubmit="return false;">
+        <!-- <label for="bowlerTeamSelect">Select a Team:</label> -->
+        <select id="bowlerTeamSelect" name="team4">
+            <option value="Chennai Super Kings">Chennai Super Kings</option>
+            <option value="Delhi Capitals">Delhi Capitals</option>
+            <option value="Punjab Kings">Punjab Kings</option>
+            <option value="Kolkata Knight Riders">Kolkata Knight Riders</option>
+            <option value="Mumbai Indians">Mumbai Indians</option>
+            <option value="Rajasthan Royals">Rajasthan Royals</option>
+            <option value="Royal Challengers Bangalore">Royal Challengers Bangalore</option>
+            <option value="Sunrisers Hyderabad">Sunrisers Hyderabad</option>
+            <option value="Lucknow Super Giants">Lucknow Super Giants</option>
+            <option value="Gujarat Titans">Gujarat Titans</option>
+
+        </select>
+        <input type="submit" value="Go!">
+    </form>
+
+    <!-- <h2>Last 5 matches for batsmen</h2>
+      <div id="batsmanTable">{{ batsman_last5 | safe }}</div> -->
+
+   
+      <div id="bowlerTable">
+        <div class="spinner-container" id="bowlerLoadingSpinner" style="display: none;">
+          <div class="spinner"></div>
+      </div>
+        <div id="bowlerTableContent">
+          <div id="bowlerTable">{{ bowler_last5 | safe }}</div>
+            <!-- Your batsman_last5 table will be inserted here -->
+        </div>
+    </div>
+        
+    
+     
+
+      
+    
+    
+
+
+
+    <h3>See players against a team</h3>
+
+<div class="HHcontainer2">
+  <form id="team-player-form" class="form-group">
+    <div class="logo">
+      <img id="team1-image" src="/static/team_logo/Chennai Super Kings.jpeg" alt="Team 1 Logo" style="width: 100px;">
+    </div>
+    <div class="select-box">
+      <label for="team1">Select Team:</label>
+      <select name="team1" id="team1" class="form-control">
+        <option value="" disabled selected>Select Team 1</option>
+        {% for team in teams %}
+        <option value="{{ team }}" {% if team == "Chennai Super Kings" %}selected{% endif %}>{{ team }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <input type="submit" value="Go!" style="height: 50px; margin-top: 20px;">
+
+
+    <div class="logo">
+      <img id="player2-image" src="/static/player_images/{{ "V Kohli"|lower|replace(' ', '_') }}.jpeg" alt="Player 2 Image" style="width: 100px;">
+    </div>
+    <div class="select-box">
+      <label for="player2">Select Batsman from opposition:</label>
+      <select name="player2" id="player2" class="form-control">
+        <option value="" disabled selected>Select Player 2</option>
+        {% for player in players %}
+        <option value="{{ player }}" {% if player == "V Kohli" %}selected{% endif %}>{{ player }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    
+  </form>
+  <div id="team-player-stats-table"></div>
+</div>
+
+
+<h3 style="margin-bottom: 30px;">See players head to head</h3>
+
+<div class="HHcontainer">
+  <form id="player-form" class="form-group">
+    <div class="logo">
+      <img id="bowler-image" src="/static/player_images/{{ "RA Jadeja"|lower|replace(' ', '_') }}.jpeg" alt="RA Jadeja" style="width: 100px;">
+    </div>
+    <div class="select-box">
+      <label for="bowler">Select Bowler:</label>
+      <select name="bowler" id="bowler" class="form-control">
+        <option value="" disabled>Select Bowler</option>
+        {% for bowler in bowlers %}
+        <option value="{{ bowler }}" {% if bowler == "RA Jadeja" %}selected{% endif %}>{{ bowler }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <!-- <button type="submit" style="background-color: darkgreen; color: aliceblue;">Go!</button> -->
+
+    <input type="submit" value="Go!" style="height: 50px; margin-top: 20px;">
+
+    <div class="logo">
+      <img id="striker-image" src="/static/player_images/{{ "V Kohli"|lower|replace(' ', '_') }}.jpeg" alt="V Kohli" style="width: 100px;">
+    </div>
+    <div class="select-box">
+      <label for="striker">Select Striker:</label>
+      <select name="striker" id="striker" class="form-control">
+        <option value="" disabled>Select Striker</option>
+        {% for striker in strikers %}
+        <option value="{{ striker }}" {% if striker == "V Kohli" %}selected{% endif %}>{{ striker }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+  </form>
+      <div id="stats-table"></div>
+    
+    </div>
+
+
+
+
+
+</div>
+  
+
+
+
+    {% endblock %}

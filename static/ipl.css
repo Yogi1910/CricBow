@@ -1,0 +1,304 @@
+/* ipl.css */
+
+.content{
+    background-color: white;
+}
+
+.heading-logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.ipl-logo img {
+    max-width: 150px;
+    max-height: 100px;
+    margin-left: 20px;
+}
+
+/* Rest of your CSS styles */
+
+
+.winners-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.winners-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.winners-list li {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.logos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border-color: black;
+    border-width: 5px;
+    
+}
+
+
+.logos-container img {
+    max-width: 100px;
+    margin: 0 0px;
+}
+
+.logo {
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 50px;
+    max-height: 100px;
+}
+
+.logo-year {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+/* ipl.css */
+
+.runs-table {
+    width: 95%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.runs-table th, .runs-table td {
+    border: 1px solid #ddd;
+    padding: 6px;
+    text-align: center;
+}
+
+.runs-table th {
+    background-color: darkgreen;
+    color: white;
+}
+.runs-table img {
+    max-width: 80px; /* Adjust the size as needed */
+    max-height: 40px;
+    border-radius: 50%; /* To make the image circular */
+}
+
+
+.container1 {
+    height:250px;
+    font-size: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+
+.table-container {
+    height:350px;
+    overflow-x: auto;
+    padding: 1px;
+    box-sizing: border-box;
+    /* Style the table */
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+/* Table styles */
+.table-container table {
+    border-collapse: collapse;
+    width: 95%;
+    
+}
+
+/* Table cell styles */
+.table-container th,
+.table-container td {
+    padding: 12px;
+    border-bottom: 3px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Header cell styles */
+.table-container th {
+    text-align: center; /* Center horizontally */
+    vertical-align: middle; /* Center vertically */
+    padding: 12px;
+    border-bottom: 3px solid #ddd;
+    border-radius: 5px;
+    background-color:darkgreen;
+    color: #f7f7f7;
+    font-weight: bold;
+}
+
+/* Hover effect for rows */
+.table-container tr:hover {
+    background-color: #f5f5f5;
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* Sticky header */
+.table-container thead {
+    position: sticky;
+    top: 0;
+    background-color: darkgreen;
+    z-index: 1;
+    text-align: center; 
+    align-items: center;
+    width:90px;
+}
+
+
+
+.team-rankings-table {
+    width: 95%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 12px;
+}
+.team-rankings-table th,
+.team-rankings-table td {
+    border: 1px solid #ddd;
+    padding: 6px;
+    text-align: center;
+    font-weight: lighter;
+}
+.team-rankings-table th {
+    background-color:darkgreen;
+    color: white;
+    font-weight: bold;
+}
+.team-rankings-table tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+.team-rankings-table tr:hover {
+    background-color: #e0e0e0;
+}
+
+
+.stadium-table-container {
+    max-height: 250px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    position: relative;
+}
+.stadium-table {
+    width: 95%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.stadium-table th,
+.stadium-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    font-size: 12px;
+    
+}
+.stadium-table th {
+    background-color:darkgreen;
+    color: white;
+    font-weight: bold;
+    position: sticky; /* Add position sticky */
+    top: 0; /* Stick to the top of the container */
+    z-index: 1; /* Ensure the header is above the table body */
+}
+
+.stadium-table tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+.stadium-table tr:hover {
+    background-color: #e0e0e0;
+}
+
+.stadium-cell:first-child {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    position:fixed;
+}
+
+
+.hat-trick-container {
+    max-height: 400px;
+    overflow-y: auto;
+    
+}
+
+.hat-trick-table {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    width: 97%;
+    margin-top: 20px;
+    height: 300px;
+    overflow: auto;
+    
+}
+
+.hat-trick-row {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ddd;
+    padding: 8px 0;
+}
+
+.hat-trick-cell {
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.hat-trick-cell:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+
+.hat-trick-cell:hover {
+    background-color: #e0e0e0;
+}
+
+.hat-trick-cell:first-child {
+    background-color: #3e41ce;
+    color: white;
+    font-weight: bold;
+}
+
+.container2 {
+    height: 550px;
+    font-size: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.heat-map-unique img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container's width */
+    max-height: 100%; /* Ensure the image doesn't exceed the container's height */
+    display: block; /* Remove any extra spacing around the image */
+    margin: 0 auto; /* Center the image horizontally within the container */
+}

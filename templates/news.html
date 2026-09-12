@@ -1,0 +1,55 @@
+{% extends "index.html" %}
+
+{% block title %}News Page{% endblock %}
+{% block heading %}CricBow Blogs{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='news.css') }}">
+<div class="main-content">
+    <div class="content-block">
+        <h2>Articles</h2>
+        <div class="articles-container">
+            {% for article in articles %}
+            <div class="article-container">
+                <img src="/static/article_images/{{ article.image }}" alt="{{ article.title }}" class="article-image">
+                <h3>{{ article.title }}</h3>
+                <p>{{ article.summary }}</p>
+                <a class="article-link" href="{{ url_for('articles', article_id=article.id ) }}" target="_blank">Read More</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="content-block">
+        <h2>News</h2>
+        <div class="news-container">
+            {% for news in news_articles %}
+            <div class="news-article-container">
+                <img src="/static/news_images/{{ news.image }}" alt="{{ news.title }}" class="news-image">
+                <h3>{{ news.title }}</h3>
+                <p>{{ news.summary }}</p>
+                <a class="news-link" href="{{ url_for('news_article', news_id=news.id) }}" target="_blank">Read More</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    
+
+<style>
+    .main-content {
+        display: flex;
+    }
+    .content-block {
+        flex: 1;
+        margin: 20px;
+    }
+</style>
+<script src="{{ url_for('static', filename='news.js') }}"></script>
+{% endblock %}
+
+
+
+
+
+
+
+

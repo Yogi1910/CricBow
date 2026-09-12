@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>CricBow</title>
+</head>
+<body>
+    <header class="top-ribbon">
+        <div class="title-and-image">
+            <img src="{{ url_for('static', filename='team_logo/cricbowlogo3.jpeg') }}" alt="CricBow Logo" loading="lazy" class="logo">
+        </div>
+        <nav class="ribbon-blocks">
+            <div class="ribbon-block"><a href="{{ url_for('home') }}">Home</a></div>
+            <div class="ribbon-block"><a href="{{ url_for('player') }}">Player</a></div>
+            <div class="ribbon-block"><a href="{{ url_for('team') }}">Team</a></div>
+            <div class="ribbon-block"><a href="{{ url_for('ipl') }}">IPL</a></div>
+            <div class="ribbon-block"><a href="{{ url_for('fantasy') }}">Fantasy</a></div>
+            <div class="ribbon-block"><a href="{{ url_for('records') }}">Records</a></div>
+        </nav>
+    </header>
+
+    
+    
+    <div class="page-layout">
+        
+        <div class="sidebar-container">
+            
+
+            <div class="sidebar">
+                <div class="sidebar-links">
+                    <h2></h2>
+                    <h3>Batting Records</h3>
+                    <a href="{{ url_for('records') }}#most-runs">Most Runs</a>
+                    <a href="{{ url_for('records') }}#highest-individual-score">Highest Individual Score</a>
+                    <a href="{{ url_for('records') }}#most-centuries">Most Centuries</a>
+                    <a href="{{ url_for('records') }}#fastest-fifty">Fastest Fifty</a>
+                    <a href="{{ url_for('records') }}#most-fours">Most Fours</a>
+                    <a href="{{ url_for('records') }}#most-sixes">Most Sixes</a>
+                    
+
+                    <h3>Bowling Records</h3>
+                    <a href="{{ url_for('records') }}#most-wickets">Most Wickets</a>
+                    <a href="{{ url_for('records') }}#best-bowling">Best Bowling in a Match</a>
+                    <a href="{{ url_for('records') }}#best-bowling-sr">Best Bowling Strike Rate</a>
+                    <a href="{{ url_for('records') }}#best-bowling-average">Best Bowling Averages</a>
+                    <a href="{{ url_for('records') }}#best-economy-rate">Best Bowling Economy</a>
+                    <a href="{{ url_for('records') }}#four-plus-wickets">Four Plus Wickets</a>
+                    <a href="{{ url_for('records') }}#hat-tricks">Hat-Tricks</a>
+
+                    <h3>Team Records</h3>
+                    <a href="{{ url_for('records') }}#highest-innings-total">Highest Innings Total</a>
+                    <a href="{{ url_for('records') }}#team-with-most-matches">Teams with most matches</a>
+                    <a href="{{ url_for('records') }}#most-matches-between-teams">Most matches between teams</a>
+                    <a href="{{ url_for('records') }}#biggest-victory-margins-runs">Biggest victory margins (runs)</a>
+                    <a href="{{ url_for('records') }}#best-win-percentage">Best Win percentage</a>
+
+                    <h3>Fielding Records</h3>
+                    <a href="{{ url_for('records') }}#most-catches">Most catches taken by fielders</a>
+                    <a href="{{ url_for('records') }}#most-dismissals">Most stumped players</a>
+                    <a href="{{ url_for('records') }}#most-run-outs">Most stumpings by wicket Keepers</a>
+                    <a href="{{ url_for('records') }}#youngest-players">Most run out players</a>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="content-container">
+            <div class="content">
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='index.js') }}"></script>
+
+    
+</body>
+</html>

@@ -1,0 +1,85 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color for the entire page */
+body {
+    background: linear-gradient(to bottom, #f5f5f5, #e0e0e0);
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+}
+
+
+/* Style for the main content paragraphs */
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Style for images */
+img {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 30px;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the World Cup squad list */
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Enhanced Styles for the News Article */
+.full-article {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+/* Style for the article title */
+.article-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style for the article content */
+.article-content {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Highlight important information */
+.highlight {
+    background-color: #f9f9f9;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Quote style */
+blockquote {
+    border-left: 2px solid #333;
+    padding-left: 15px;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+/* Additional Styles and Features Can Be Added Here */

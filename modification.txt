@@ -1,0 +1,57 @@
+1, changed seasons 
+2, stadium name correction
+
+
+venue_mapping = {
+    "Arun Jaitley Stadium": "Arun Jaitley Stadium Delhi",
+    "Arun Jaitley Stadium, Delhi": "Arun Jaitley Stadium Delhi",
+    "Feroz Shah Kotla": "Arun Jaitley Stadium Delhi",
+    "Barabati Stadium": "Barsapara Cricket Stadium Guwahati",
+    "Barsapara Cricket Stadium, Guwahati": "Barsapara Cricket Stadium Guwahati",
+    "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium Lucknow",
+    "Brabourne Stadium": "Brabourne Stadium Mumbai",
+    "Brabourne Stadium, Mumbai": "Brabourne Stadium Mumbai",
+    "Dr DY Patil Sports Academy": "Dr DY Patil Sports Academy Mumbai",
+    "Dr DY Patil Sports Academy, Mumbai": "Dr DY Patil Sports Academy Mumbai",
+    "Eden Gardens, Kolkata": "Eden Gardens Kolkata",
+    "Himachal Pradesh Cricket Association Stadium, Dharamsala": "Himachal Pradesh Cricket Association Stadium Dharamsala",
+    "M Chinnaswamy Stadium": "M Chinnaswamy Stadium Bengaluru",
+    "M Chinnaswamy Stadium, Bengaluru": "M Chinnaswamy Stadium Bengaluru",
+    "M.Chinnaswamy Stadium": "M Chinnaswamy Stadium Bengaluru",
+    "MA Chidambaram Stadium": "MA Chidambaram Stadium Chepauk Chennai",
+    "MA Chidambaram Stadium, Chepauk": "MA Chidambaram Stadium Chepauk Chennai",
+    "MA Chidambaram Stadium, Chepauk, Chennai": "MA Chidambaram Stadium Chepauk Chennai",
+    "Maharashtra Cricket Association Stadium": "Maharashtra Cricket Association Stadium Pune",
+    "Maharashtra Cricket Association Stadium, Pune": "Maharashtra Cricket Association Stadium Pune",
+    "Narendra Modi Stadium, Ahmedabad": "Narendra Modi Stadium Ahmedabad",
+    "Punjab Cricket Association IS Bindra Stadium": "Punjab Cricket Association IS Bindra Stadium Mohali Chandigarh",
+    "Punjab Cricket Association IS Bindra Stadium, Mohali": "Punjab Cricket Association IS Bindra Stadium Mohali Chandigarh",
+    "Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh": "Punjab Cricket Association IS Bindra Stadium Mohali Chandigarh",
+    "Punjab Cricket Association Stadium, Mohali": "Punjab Cricket Association IS Bindra Stadium Mohali Chandigarh",
+    "Rajiv Gandhi International Stadium": "Rajiv Gandhi International Stadium Uppal Hyderabad",
+    "Rajiv Gandhi International Stadium, Uppal": "Rajiv Gandhi International Stadium Uppal Hyderabad",
+    "Rajiv Gandhi International Stadium, Uppal, Hyderabad": "Rajiv Gandhi International Stadium Uppal Hyderabad",
+    "Sardar Patel Stadium, Motera": "Sardar Patel Stadium Motera",
+    "Saurashtra Cricket Association Stadium": "Saurashtra Cricket Association Stadium",
+    "Sawai Mansingh Stadium": "Sawai Mansingh Stadium Jaipur",
+    "Sawai Mansingh Stadium, Jaipur": "Sawai Mansingh Stadium Jaipur",
+    "Vidarbha Cricket Association Stadium, Jamtha": "Vidarbha Cricket Association Stadium Jamtha",
+    "Wankhede Stadium": "Wankhede Stadium Mumbai",
+    "Wankhede Stadium, Mumbai": "Wankhede Stadium Mumbai",
+    "Zayed Cricket Stadium, Abu Dhabi": "Zayed Cricket Stadium Abu Dhabi"
+}
+
+3. team correction
+Kings XI Punjab - Punjab Kings 
+Delhi Daredevils - Delhi Capitals
+Rising Pune Supergiants - Rising Pune Supergiant
+
+(Delhi Daredevils:-  there is some space at the start as well)
+
+
+4. yaml to data in csv
+5. 
+
+
+
+

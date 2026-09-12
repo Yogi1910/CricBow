@@ -1,0 +1,112 @@
+<!-- player.html -->
+{% extends "index.html" %}
+
+{% block title %}Home Page{% endblock %}
+{% block heading %}CricSense{% endblock %}
+
+{% block content %}
+
+<head>
+    <title>Player Statistics</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='player.css') }}">
+    
+</head>
+<body>
+
+</div>
+    <div class="content">
+        <form method="get" action="/player">
+            <input type="text" name="name" placeholder="Enter player name" value="{{ player_name }}">
+            <input type="submit" value="Search">
+        </form>
+        
+        
+        
+        <div class="container">
+            <div class="tables-container">
+                <div class="table-container">
+                    <h2 style="margin-bottom: 10px;"><font color="green">{{ player_name }}</font></h2>
+                    
+                     
+                    {{ html_table | safe }}
+                </div>
+                <div class="table-container">
+                    {{ html_table1 | safe }}
+                </div>
+            </div>
+            <div class="profile-container">
+               
+                <img src="/static/player_images/{{ player_name|lower|replace(' ', '_') }}.jpeg" alt="{{ player_name }}">
+                <!-- <h4><font color="green">INDIA</font><br><br>RCB<br><br>Right-HB<br><br>35y<br><br>2009-Present</h4>  -->
+                <h4><font color="green">{{ country }}</font><br><br>{{ ipl_team }}<br><br>{{ batting_style }}<br><br>{{ age }}y<br><br>{{ debut }}</h4>  
+            </div>
+        </div>
+        
+
+        <div class="container1">
+            <div class="bar-container1">
+                <img src="/static/graph_images/runs_bar_plot_{{ player_name }}.png" alt="Runs Bar Plot">
+            </div>
+            <div class="line-container1">
+                <img src="/static/graph_images/runs_per_season_bar_plot_{{ player_name }}.png" alt="Runs season Plot">
+            </div>
+        </div>
+
+
+        <div class="container2">
+            <div class="bar-container2">
+                <img src="/static/graph_images/plot_runs_and_strike_rate_curve_{{ player_name }}.png" alt="Over SR Run Plot">
+            </div>
+            <div class="line-container2">
+                <img src="/static/graph_images/plot_balls_and_dismissals_{{ player_name }}.png" alt="Balls and Dismissals">
+            </div>
+        </div>
+
+        <div class="container3">
+            <div class="bar-container3">
+                <img src="/static/graph_images/plot_metrics_balls_per_bar_chart_{{ player_name }}.png" alt="Balls per Plot">
+            </div>
+            <div class="line-container3">
+                <img src="/static/graph_images/dismissal_types_bar_chart_{{ player_name }}.png" alt="Balls per Plot1">
+            </div>
+        </div>
+
+        <div class="container4">
+            <div class="bar-container4">
+                <img src="/static/graph_images/stadium_average_chart_{{ player_name }}.png" alt="Balls per Plot1">
+            </div>
+
+            <div class="line-container4">
+                <img src="/static/graph_images/opposition_average_chart_{{ player_name }}.png" alt="Balls per Plot2">
+            </div>
+        </div>
+
+        <div class="container5">
+
+            <div class="line-container5">
+                <img src="/static/graph_images/bowler_bar_plots_{{ player_name }}.png" alt="Balls per Plot3">
+            </div>
+        </div>
+
+        <div class="container6">
+            <div class="bar-container6">
+                <img src="/static/graph_images/runs_warm_{{ player_name }}.png" alt="Balls per Plot1">
+            </div>
+
+            <div class="line-container6">
+                <img src="/static/graph_images/boundaries_for_player_{{ player_name }}.png" alt="Balls per Plot2">
+            </div>
+        </div>
+
+        
+    </div>
+</div>
+
+    
+
+{% endblock %}
+
+
+
+
+
