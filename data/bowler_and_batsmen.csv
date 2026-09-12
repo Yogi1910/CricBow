@@ -1,0 +1,178 @@
+bowling_team,bowler,batting_team,striker
+Gujarat Titans,Mohammed Shami,Chennai Super Kings,DP Conway
+Gujarat Titans,HH Pandya,Gujarat Titans,WP Saha
+Gujarat Titans,J Little,Punjab Kings,P Simran Singh
+Gujarat Titans,Rashid Khan,Kolkata Knight Riders,Mandeep Singh
+Gujarat Titans,AS Joseph,Lucknow Super Giants,KL Rahul
+Gujarat Titans,Yash Dayal,Delhi Capitals,PP Shaw
+Chennai Super Kings,DL Chahar,Rajasthan Royals,YBK Jaiswal
+Chennai Super Kings,TU Deshpande,Sunrisers Hyderabad,Abhishek Sharma
+Chennai Super Kings,RS Hangargekar,Sunrisers Hyderabad,MA Agarwal
+Chennai Super Kings,MJ Santner,Mumbai Indians,RG Sharma
+Chennai Super Kings,RA Jadeja,Royal Challengers Bangalore,V Kohli
+Kolkata Knight Riders,UT Yadav,Punjab Kings,Atharva Taide
+Kolkata Knight Riders,TG Southee,Kolkata Knight Riders,JJ Roy
+Kolkata Knight Riders,SP Narine,Chennai Super Kings,RD Gaikwad
+Kolkata Knight Riders,CV Varun,Chennai Super Kings,MM Ali
+Kolkata Knight Riders,SN Thakur,Chennai Super Kings,BA Stokes
+Punjab Kings,SM Curran,Chennai Super Kings,AT Rayudu
+Punjab Kings,Arshdeep Singh,Chennai Super Kings,S Dube
+Punjab Kings,NT Ellis,Chennai Super Kings,RA Jadeja
+Punjab Kings,Sikandar Raza,Chennai Super Kings,MS Dhoni
+Punjab Kings,R Dhawan,Chennai Super Kings,MJ Santner
+Punjab Kings,RD Chahar,Gujarat Titans,Shubman Gill
+Punjab Kings,Harpreet Brar,Gujarat Titans,B Sai Sudharsan
+Delhi Capitals,KK Ahmed,Gujarat Titans,HH Pandya
+Delhi Capitals,Mukesh Kumar,Gujarat Titans,V Shankar
+Delhi Capitals,C Sakariya,Gujarat Titans,R Tewatia
+Delhi Capitals,AR Patel,Gujarat Titans,Rashid Khan
+Delhi Capitals,Kuldeep Yadav,Punjab Kings,S Dhawan
+Lucknow Super Giants,KR Mayers,Punjab Kings,PBB Rajapaksa
+Lucknow Super Giants,JD Unadkat,Punjab Kings,JM Sharma
+Lucknow Super Giants,K Gowtham,Punjab Kings,Sikandar Raza
+Lucknow Super Giants,Avesh Khan,Punjab Kings,SM Curran
+Lucknow Super Giants,MA Wood,Punjab Kings,M Shahrukh Khan
+Lucknow Super Giants,Ravi Bishnoi,Kolkata Knight Riders,Rahmanullah Gurbaz
+Sunrisers Hyderabad,B Kumar,Kolkata Knight Riders,AS Roy
+Sunrisers Hyderabad,Fazalhaq Farooqi,Kolkata Knight Riders,VR Iyer
+Sunrisers Hyderabad,Washington Sundar,Kolkata Knight Riders,N Rana
+Sunrisers Hyderabad,T Natarajan,Kolkata Knight Riders,RK Singh
+Sunrisers Hyderabad,AU Rashid,Kolkata Knight Riders,AD Russell
+Sunrisers Hyderabad,Umran Malik,Kolkata Knight Riders,SN Thakur
+Rajasthan Royals,TA Boult,Kolkata Knight Riders,SP Narine
+Rajasthan Royals,KM Asif,Lucknow Super Giants,KR Mayers
+Rajasthan Royals,JO Holder,Lucknow Super Giants,DJ Hooda
+Rajasthan Royals,R Ashwin,Lucknow Super Giants,KH Pandya
+Rajasthan Royals,YS Chahal,Lucknow Super Giants,MP Stoinis
+Rajasthan Royals,NA Saini,Lucknow Super Giants,N Pooran
+Royal Challengers Bangalore,Mohammed Siraj,Lucknow Super Giants,A Badoni
+Royal Challengers Bangalore,RJW Topley,Lucknow Super Giants,K Gowtham
+Royal Challengers Bangalore,Akash Deep,Delhi Capitals,DA Warner
+Royal Challengers Bangalore,HV Patel,Delhi Capitals,MR Marsh
+Royal Challengers Bangalore,KV Sharma,Delhi Capitals,SN Khan
+Royal Challengers Bangalore,MG Bracewell,Delhi Capitals,RR Rossouw
+Royal Challengers Bangalore,GJ Maxwell,Delhi Capitals,R Powell
+Mumbai Indians,JP Behrendorff,Delhi Capitals,Aman Hakim Khan
+Mumbai Indians,Arshad Khan (2),Delhi Capitals,AR Patel
+Mumbai Indians,JC Archer,Delhi Capitals,Kuldeep Yadav
+Mumbai Indians,PP Chawla,Delhi Capitals,C Sakariya
+Mumbai Indians,C Green,Delhi Capitals,Mukesh Kumar
+Mumbai Indians,HR Shokeen,Rajasthan Royals,JC Buttler
+Lucknow Super Giants,KH Pandya,Rajasthan Royals,SV Samson
+Lucknow Super Giants,Yash Thakur,Rajasthan Royals,D Padikkal
+Chennai Super Kings,BA Stokes,Rajasthan Royals,R Parag
+Chennai Super Kings,MM Ali,Rajasthan Royals,SO Hetmyer
+Delhi Capitals,A Nortje,Rajasthan Royals,R Ashwin
+Delhi Capitals,MR Marsh,Sunrisers Hyderabad,RA Tripathi
+Royal Challengers Bangalore,DJ Willey,Sunrisers Hyderabad,HC Brook
+Royal Challengers Bangalore,Shahbaz Ahmed,Sunrisers Hyderabad,Washington Sundar
+Kolkata Knight Riders,Suyash Sharma,Sunrisers Hyderabad,GD Phillips
+Lucknow Super Giants,DJ Hooda,Sunrisers Hyderabad,Abdul Samad
+Lucknow Super Giants,A Mishra,Sunrisers Hyderabad,AU Rashid
+Sunrisers Hyderabad,AK Markram,Sunrisers Hyderabad,B Kumar
+Delhi Capitals,R Powell,Sunrisers Hyderabad,Umran Malik
+Rajasthan Royals,Sandeep Sharma,Mumbai Indians,Ishan Kishan
+Rajasthan Royals,M Ashwin,Mumbai Indians,C Green
+Chennai Super Kings,SSB Magala,Mumbai Indians,SA Yadav
+Chennai Super Kings,D Pretorius,Mumbai Indians,Tilak Varma
+Mumbai Indians,K Kartikeya,Mumbai Indians,N Wadhera
+Kolkata Knight Riders,LH Ferguson,Mumbai Indians,TH David
+Sunrisers Hyderabad,M Jansen,Mumbai Indians,HR Shokeen
+Sunrisers Hyderabad,M Markande,Mumbai Indians,Arshad Khan (2)
+Punjab Kings,Mohit Rathee,Royal Challengers Bangalore,F du Plessis
+Royal Challengers Bangalore,WD Parnell,Royal Challengers Bangalore,KD Karthik
+Mumbai Indians,RP Meredith,Royal Challengers Bangalore,GJ Maxwell
+Mumbai Indians,Tilak Varma,Lucknow Super Giants,MA Wood
+Delhi Capitals,Mustafizur Rahman,Delhi Capitals,Abishek Porel
+Delhi Capitals,Lalit Yadav,Delhi Capitals,A Nortje
+Chennai Super Kings,Akash Singh,Gujarat Titans,DA Miller
+Chennai Super Kings,M Theekshana,Rajasthan Royals,Dhruv Jurel
+Rajasthan Royals,KR Sen,Rajasthan Royals,JO Holder
+Rajasthan Royals,A Zampa,Kolkata Knight Riders,UT Yadav
+Gujarat Titans,MM Sharma,Royal Challengers Bangalore,MG Bracewell
+Punjab Kings,K Rabada,Royal Challengers Bangalore,HV Patel
+Punjab Kings,MW Short,Royal Challengers Bangalore,Shahbaz Ahmed
+Kolkata Knight Riders,AD Russell,Royal Challengers Bangalore,Anuj Rawat
+Royal Challengers Bangalore,Vijaykumar Vyshak,Royal Challengers Bangalore,DJ Willey
+Royal Challengers Bangalore,PWH de Silva,Royal Challengers Bangalore,KV Sharma
+Lucknow Super Giants,Yudhvir Singh,Royal Challengers Bangalore,Akash Deep
+Mumbai Indians,Arjun Tendulkar,Sunrisers Hyderabad,Anmolpreet Singh
+Mumbai Indians,Duan Jansen,Sunrisers Hyderabad,AK Markram
+Gujarat Titans,Noor Ahmad,Lucknow Super Giants,R Shepherd
+Chennai Super Kings,M Pathirana,Delhi Capitals,MK Pandey
+Lucknow Super Giants,Naveen-ul-Haq,Delhi Capitals,Lalit Yadav
+Lucknow Super Giants,MP Stoinis,Mumbai Indians,T Stubbs
+Punjab Kings,LS Livingstone,Mumbai Indians,PP Chawla
+Delhi Capitals,I Sharma,Chennai Super Kings,AM Rahane
+Kolkata Knight Riders,K Khejroliya,Gujarat Titans,A Manohar
+Kolkata Knight Riders,AS Roy,Kolkata Knight Riders,N Jagadeesan
+Kolkata Knight Riders,N Rana,Punjab Kings,MW Short
+Sunrisers Hyderabad,Mayank Dagar,Punjab Kings,Harpreet Brar
+Gujarat Titans,J Yadav,Punjab Kings,RD Chahar
+Gujarat Titans,R Tewatia,Punjab Kings,NT Ellis
+Kolkata Knight Riders,D Wiese,Punjab Kings,Mohit Rathee
+Kolkata Knight Riders,VG Arora,Lucknow Super Giants,JD Unadkat
+Rajasthan Royals,K Yadav,Lucknow Super Giants,Ravi Bishnoi
+Punjab Kings,Gurnoor Brar,Lucknow Super Giants,Avesh Khan
+Lucknow Super Giants,A Badoni,Delhi Capitals,YV Dhull
+Kolkata Knight Riders,Harshit Rana,Delhi Capitals,Mustafizur Rahman
+Sunrisers Hyderabad,AJ Hosein,Rajasthan Royals,A Zampa
+Sunrisers Hyderabad,Abhishek Sharma,Punjab Kings,R Dhawan
+Royal Challengers Bangalore,JR Hazlewood,Sunrisers Hyderabad,H Klaasen
+Royal Challengers Bangalore,MK Lomror,Royal Challengers Bangalore,MK Lomror
+Mumbai Indians,Akash Madhwal,Lucknow Super Giants,Yudhvir Singh
+Sunrisers Hyderabad,Kartik Tyagi,Punjab Kings,Harpreet Singh
+Mumbai Indians,R Goyal,Punjab Kings,K Rabada
+Mumbai Indians,T Stubbs,Rajasthan Royals,TA Boult
+Lucknow Super Giants,Mohsin Khan (2),Royal Challengers Bangalore,SS Prabhudessai
+Lucknow Super Giants,Swapnil Singh,Royal Challengers Bangalore,WD Parnell
+Sunrisers Hyderabad,Vivrant Sharma,Royal Challengers Bangalore,PWH de Silva
+Rajasthan Royals,OC McCoy,Sunrisers Hyderabad,M Jansen
+Mumbai Indians,CJ Jordan,Sunrisers Hyderabad,M Markande
+Rajasthan Royals,JE Root,Punjab Kings,LS Livingstone
+Sunrisers Hyderabad,GD Phillips,Kolkata Knight Riders,Liton Das
+Delhi Capitals,P Dubey,Kolkata Knight Riders,CV Varun
+Sunrisers Hyderabad,Nithish Kumar Reddy,Delhi Capitals,PD Salt
+Royal Challengers Bangalore,H Sharma,Mumbai Indians,JC Archer
+Gujarat Titans,DG Nalkande,Royal Challengers Bangalore,Vijaykumar Vyshak
+,,Royal Challengers Bangalore,Mohammed Siraj
+,,Rajasthan Royals,Abdul Basith
+,,Kolkata Knight Riders,D Wiese
+,,Delhi Capitals,RV Patel
+,,Delhi Capitals,I Sharma
+,,Mumbai Indians,Arjun Tendulkar
+,,Mumbai Indians,JP Behrendorff
+,,Mumbai Indians,RP Meredith
+,,Punjab Kings,Arshdeep Singh
+,,Sunrisers Hyderabad,AJ Hosein
+,,Delhi Capitals,PK Garg
+,,Royal Challengers Bangalore,JR Hazlewood
+,,Lucknow Super Giants,A Mishra
+,,Lucknow Super Giants,Naveen-ul-Haq
+,,Lucknow Super Giants,M Vohra
+,,Lucknow Super Giants,KS Sharma
+,,Kolkata Knight Riders,Harshit Rana
+,,Kolkata Knight Riders,VG Arora
+,,Rajasthan Royals,Sandeep Sharma
+,,Lucknow Super Giants,Q de Kock
+,,Lucknow Super Giants,Swapnil Singh
+,,Royal Challengers Bangalore,KM Jadhav
+,,Chennai Super Kings,DL Chahar
+,,Chennai Super Kings,TU Deshpande
+,,Mumbai Indians,Vishnu Vinod
+,,Gujarat Titans,Noor Ahmad
+,,Gujarat Titans,AS Joseph
+,,Lucknow Super Giants,PN Mankad
+,,Delhi Capitals,P Dubey
+,,Rajasthan Royals,JE Root
+,,Rajasthan Royals,KM Asif
+,,Gujarat Titans,MD Shanaka
+,,Gujarat Titans,Mohammed Shami
+,,Gujarat Titans,MM Sharma
+,,Sunrisers Hyderabad,Sanvir Singh
+,,Sunrisers Hyderabad,Fazalhaq Farooqi
+,,Sunrisers Hyderabad,Vivrant Sharma
+,,Gujarat Titans,DG Nalkande
+,,Mumbai Indians,CJ Jordan
+,,Lucknow Super Giants,Mohsin Khan (2)
+,,Mumbai Indians,K Kartikeya

@@ -1,0 +1,74 @@
+Player,Teams,Num of Teams
+AJ Finch,"{'Sunrisers Hyderabad', 'Royal Challengers Bangalore', 'Kolkata Knight Riders', 'Punjab Kings', 'Mumbai Indians', 'Pune Warriors', 'Rajasthan Royals', 'Delhi Capitals', 'Gujarat Lions'}",9
+JD Unadkat,"{'Royal Challengers Bangalore', 'Kolkata Knight Riders', 'Mumbai Indians', 'Rising Pune Supergiant', 'Rajasthan Royals', 'Delhi Capitals', 'Lucknow Super Giants'}",7
+MK Pandey,"{'Sunrisers Hyderabad', 'Royal Challengers Bangalore', 'Kolkata Knight Riders', 'Mumbai Indians', 'Pune Warriors', 'Delhi Capitals', 'Lucknow Super Giants'}",7
+AM Rahane,"{'Chennai Super Kings', 'Kolkata Knight Riders', 'Mumbai Indians', 'Rising Pune Supergiant', 'Rajasthan Royals', 'Delhi Capitals'}",6
+KD Karthik,"{'Royal Challengers Bangalore', 'Kolkata Knight Riders', 'Punjab Kings', 'Mumbai Indians', 'Delhi Capitals', 'Gujarat Lions'}",6
+NLTC Perera,"{'Chennai Super Kings', 'Sunrisers Hyderabad', 'Kochi Tuskers Kerala', 'Punjab Kings', 'Mumbai Indians', 'Rising Pune Supergiant'}",6
+I Sharma,"{'Sunrisers Hyderabad', 'Kolkata Knight Riders', 'Punjab Kings', 'Rising Pune Supergiant', 'Deccan Chargers', 'Delhi Capitals'}",6
+RV Uthappa,"{'Chennai Super Kings', 'Royal Challengers Bangalore', 'Kolkata Knight Riders', 'Mumbai Indians', 'Pune Warriors', 'Rajasthan Royals'}",6
+Yuvraj Singh,"{'Sunrisers Hyderabad', 'Royal Challengers Bangalore', 'Punjab Kings', 'Mumbai Indians', 'Pune Warriors', 'Delhi Capitals'}",6
+PA Patel,"{'Chennai Super Kings', 'Sunrisers Hyderabad', 'Royal Challengers Bangalore', 'Kochi Tuskers Kerala', 'Mumbai Indians', 'Deccan Chargers'}",6
+MC Henriques,"{'Sunrisers Hyderabad', 'Royal Challengers Bangalore', 'Kolkata Knight Riders', 'Punjab Kings', 'Delhi Capitals'}",5
+TG Southee,"{'Chennai Super Kings', 'Royal Challengers Bangalore', 'Kolkata Knight Riders', 'Mumbai Indians', 'Rajasthan Royals'}",5
+RP Singh,"{'Royal Challengers Bangalore', 'Kochi Tuskers Kerala', 'Mumbai Indians', 'Deccan Chargers', 'Rising Pune Supergiant'}",5
+MA Agarwal,"{'Delhi Capitals', 'Sunrisers Hyderabad', 'Royal Challengers Bangalore', 'Punjab Kings', 'Rising Pune Supergiant'}",5
+VR Aaron,"{'Gujarat Titans', 'Royal Challengers Bangalore', 'Punjab Kings', 'Rajasthan Royals', 'Delhi Capitals'}",5
+CJ Jordan,"{'Chennai Super Kings', 'Sunrisers Hyderabad', 'Royal Challengers Bangalore', 'Punjab Kings', 'Mumbai Indians'}",5
+AB Dinda,"{'Royal Challengers Bangalore', 'Kolkata Knight Riders', 'Rising Pune Supergiant', 'Pune Warriors', 'Delhi Capitals'}",5
+IK Pathan,"{'Delhi Capitals', 'Sunrisers Hyderabad', 'Punjab Kings', 'Rising Pune Supergiant', 'Gujarat Lions'}",5
+TA Boult,"{'Sunrisers Hyderabad', 'Kolkata Knight Riders', 'Mumbai Indians', 'Rajasthan Royals', 'Delhi Capitals'}",5
+S Dhawan,"{'Sunrisers Hyderabad', 'Punjab Kings', 'Mumbai Indians', 'Deccan Chargers', 'Delhi Capitals'}",5
+A Nehra,"{'Chennai Super Kings', 'Sunrisers Hyderabad', 'Mumbai Indians', 'Pune Warriors', 'Delhi Capitals'}",5
+PJ Sangwan,"{'Gujarat Titans', 'Kolkata Knight Riders', 'Mumbai Indians', 'Delhi Capitals', 'Gujarat Lions'}",5
+R Ashwin,"{'Delhi Capitals', 'Chennai Super Kings', 'Punjab Kings', 'Rajasthan Royals', 'Rising Pune Supergiant'}",5
+M Ashwin,"{'Royal Challengers Bangalore', 'Punjab Kings', 'Mumbai Indians', 'Rajasthan Royals', 'Rising Pune Supergiant'}",5
+SN Thakur,"{'Chennai Super Kings', 'Kolkata Knight Riders', 'Punjab Kings', 'Rising Pune Supergiant', 'Delhi Capitals'}",5
+WP Saha,"{'Chennai Super Kings', 'Gujarat Titans', 'Sunrisers Hyderabad', 'Kolkata Knight Riders', 'Punjab Kings'}",5
+BB McCullum,"{'Chennai Super Kings', 'Royal Challengers Bangalore', 'Kolkata Knight Riders', 'Kochi Tuskers Kerala', 'Gujarat Lions'}",5
+P Kumar,"{'Sunrisers Hyderabad', 'Royal Challengers Bangalore', 'Punjab Kings', 'Mumbai Indians', 'Gujarat Lions'}",5
+JO Holder,"{'Chennai Super Kings', 'Sunrisers Hyderabad', 'Kolkata Knight Riders', 'Rajasthan Royals', 'Lucknow Super Giants'}",5
+MR Marsh,"{'Delhi Capitals', 'Pune Warriors', 'Sunrisers Hyderabad', 'Deccan Chargers', 'Rising Pune Supergiant'}",5
+Q de Kock,"{'Sunrisers Hyderabad', 'Royal Challengers Bangalore', 'Mumbai Indians', 'Delhi Capitals', 'Lucknow Super Giants'}",5
+KM Jadhav,"{'Chennai Super Kings', 'Sunrisers Hyderabad', 'Royal Challengers Bangalore', 'Kochi Tuskers Kerala', 'Delhi Capitals'}",5
+SS Tiwary,"{'Delhi Capitals', 'Mumbai Indians', 'Royal Challengers Bangalore', 'Rising Pune Supergiant'}",4
+MK Tiwary,"{'Delhi Capitals', 'Punjab Kings', 'Kolkata Knight Riders', 'Rising Pune Supergiant'}",4
+AJ Tye,"{'Punjab Kings', 'Lucknow Super Giants', 'Rajasthan Royals', 'Gujarat Lions'}",4
+DR Smith,"{'Mumbai Indians', 'Chennai Super Kings', 'Deccan Chargers', 'Gujarat Lions'}",4
+Ankit Sharma,"{'Deccan Chargers', 'Rajasthan Royals', 'Rising Pune Supergiant', 'Sunrisers Hyderabad'}",4
+JA Morkel,"{'Royal Challengers Bangalore', 'Rising Pune Supergiant', 'Chennai Super Kings', 'Delhi Capitals'}",4
+AS Rajpoot,"{'Punjab Kings', 'Kolkata Knight Riders', 'Rajasthan Royals', 'Chennai Super Kings'}",4
+AM Nayar,"{'Punjab Kings', 'Mumbai Indians', 'Pune Warriors', 'Rajasthan Royals'}",4
+LRPL Taylor,"{'Royal Challengers Bangalore', 'Pune Warriors', 'Rajasthan Royals', 'Delhi Capitals'}",4
+R Tewatia,"{'Punjab Kings', 'Delhi Capitals', 'Rajasthan Royals', 'Gujarat Titans'}",4
+Mohammed Shami,"{'Punjab Kings', 'Kolkata Knight Riders', 'Delhi Capitals', 'Gujarat Titans'}",4
+JJ Roy,"{'Kolkata Knight Riders', 'Gujarat Lions', 'Delhi Capitals', 'Sunrisers Hyderabad'}",4
+BB Sran,"{'Punjab Kings', 'Mumbai Indians', 'Rajasthan Royals', 'Sunrisers Hyderabad'}",4
+CH Morris,"{'Royal Challengers Bangalore', 'Chennai Super Kings', 'Rajasthan Royals', 'Delhi Capitals'}",4
+JP Faulkner,"{'Punjab Kings', 'Pune Warriors', 'Rajasthan Royals', 'Gujarat Lions'}",4
+JDS Neesham,"{'Punjab Kings', 'Mumbai Indians', 'Rajasthan Royals', 'Delhi Capitals'}",4
+MS Gony,"{'Punjab Kings', 'Deccan Chargers', 'Chennai Super Kings', 'Gujarat Lions'}",4
+V Shankar,"{'Delhi Capitals', 'Chennai Super Kings', 'Gujarat Titans', 'Sunrisers Hyderabad'}",4
+Mandeep Singh,"{'Punjab Kings', 'Royal Challengers Bangalore', 'Kolkata Knight Riders', 'Delhi Capitals'}",4
+MM Sharma,"{'Punjab Kings', 'Chennai Super Kings', 'Delhi Capitals', 'Gujarat Titans'}",4
+M Vohra,"{'Punjab Kings', 'Royal Challengers Bangalore', 'Rajasthan Royals', 'Lucknow Super Giants'}",4
+KL Rahul,"{'Punjab Kings', 'Sunrisers Hyderabad', 'Royal Challengers Bangalore', 'Lucknow Super Giants'}",4
+DJ Hooda,"{'Punjab Kings', 'Sunrisers Hyderabad', 'Rajasthan Royals', 'Lucknow Super Giants'}",4
+MP Stoinis,"{'Punjab Kings', 'Royal Challengers Bangalore', 'Delhi Capitals', 'Lucknow Super Giants'}",4
+GJ Maxwell,"{'Punjab Kings', 'Mumbai Indians', 'Royal Challengers Bangalore', 'Delhi Capitals'}",4
+Mustafizur Rahman,"{'Mumbai Indians', 'Rajasthan Royals', 'Delhi Capitals', 'Sunrisers Hyderabad'}",4
+SP Goswami,"{'Royal Challengers Bangalore', 'Kolkata Knight Riders', 'Rajasthan Royals', 'Sunrisers Hyderabad'}",4
+M Kartik,"{'Punjab Kings', 'Royal Challengers Bangalore', 'Kolkata Knight Riders', 'Pune Warriors'}",4
+A Mishra,"{'Lucknow Super Giants', 'Deccan Chargers', 'Delhi Capitals', 'Sunrisers Hyderabad'}",4
+RA Jadeja,"{'Kochi Tuskers Kerala', 'Chennai Super Kings', 'Rajasthan Royals', 'Gujarat Lions'}",4
+R Bhatia,"{'Rising Pune Supergiant', 'Kolkata Knight Riders', 'Rajasthan Royals', 'Delhi Capitals'}",4
+KV Sharma,"{'Mumbai Indians', 'Royal Challengers Bangalore', 'Chennai Super Kings', 'Sunrisers Hyderabad'}",4
+DW Steyn,"{'Royal Challengers Bangalore', 'Deccan Chargers', 'Gujarat Lions', 'Sunrisers Hyderabad'}",4
+R Vinay Kumar,"{'Mumbai Indians', 'Royal Challengers Bangalore', 'Kolkata Knight Riders', 'Kochi Tuskers Kerala'}",4
+KK Nair,"{'Punjab Kings', 'Royal Challengers Bangalore', 'Rajasthan Royals', 'Delhi Capitals'}",4
+EJG Morgan,"{'Punjab Kings', 'Royal Challengers Bangalore', 'Kolkata Knight Riders', 'Sunrisers Hyderabad'}",4
+RA Tripathi,"{'Kolkata Knight Riders', 'Rajasthan Royals', 'Rising Pune Supergiant', 'Sunrisers Hyderabad'}",4
+DT Christian,"{'Delhi Capitals', 'Royal Challengers Bangalore', 'Deccan Chargers', 'Rising Pune Supergiant'}",4
+PP Chawla,"{'Punjab Kings', 'Mumbai Indians', 'Kolkata Knight Riders', 'Chennai Super Kings'}",4
+SPD Smith,"{'Delhi Capitals', 'Pune Warriors', 'Rajasthan Royals', 'Rising Pune Supergiant'}",4
+NM Coulter-Nile,"{'Mumbai Indians', 'Kolkata Knight Riders', 'Rajasthan Royals', 'Delhi Capitals'}",4

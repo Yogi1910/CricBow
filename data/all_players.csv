@@ -1,0 +1,647 @@
+player,country,ipl_team,batting_style,age,debut
+A Ashish Reddy, INDIA, SRH, RHB, ,
+A Badoni, INDIA, RCB, LHB, ,
+A Chandila, INDIA, RR, RHB, ,
+A Chopra, INDIA, KKR, RHB, ,
+A Choudhary, INDIA, RCB, LHB, ,
+A Dananjaya, SRI LANKA, MI, RHB, ,
+A Flintoff, ENGLAND, CSK, RHB, ,
+A Kumble, INDIA, RCB, RHB, ,
+A Manohar, INDIA, CSK, RHB, ,
+A Mishra, INDIA, DD/DC, RHB, XXy, 2008-Present
+A Mithun, INDIA, RCB, RHB, XXy, 2009-2019
+A Mukund, INDIA, CSK, LHB, XXy, 2008-2013
+A Nehra, INDIA, Various Teams, RHB, XXy, 2008-2016
+A Nel, SOUTH AFRICA, DD/DC, RHB, XXy, 2008-2009
+A Nortje, SOUTH AFRICA, DC, RHB, XXy, 2019-Present
+A Singh, INDIA, KXIP, RHB, XXy, 2008-2016
+A Symonds, AUSTRALIA, Various Teams, RHB, XXy, 2008-2012
+A Tomar, INDIA, KKR, RHB, XXy, 2008-2012
+A Uniyal, INDIA, DD/DC, RHB, XXy, 2008-2009
+A Zampa, AUSTRALIA, RCB, RHB, XXy, 2016-Present
+AA Bilakhia, INDIA, RR, LHB, XXy, 2008-2010
+AA Chavan, INDIA, RR, LHB, XXy, 2008-2012
+AA Jhunjhunwala, INDIA, Various Teams, RHB, XXy, 2008-2013
+AA Kazi, INDIA, RR, LHB, XXy, 2011-2013
+AA Noffke, AUSTRALIA, RCB, RHB, XXy, 2008-2008
+AB Agarkar, INDIA, KKR, RHB, XXy, 2008-2013
+AB Barath, WEST INDIES, RCB, RHB, XXy, 2010-2011
+AB Dinda, INDIA, Various Teams, RHB, XXy, 2008-2017
+AB McDonald, AUSTRALIA, DD/DC, RHB, XXy, 2009-2010
+AB de Villiers, SOUTH AFRICA, RCB, RHB, XXy, 2008-2021
+AC Blizzard, AUSTRALIA, MI, LHB, XXy, 2011-2012
+AC Gilchrist, AUSTRALIA, Various Teams, LHB, XXy, 2008-2013
+AC Thomas, ENGLAND, Various Teams, Right-HB, XXy, 2008-2013
+AC Voges, AUSTRALIA, RR, Right-HB, XXy, 2008-2013
+AD Hales, ENGLAND, Various Teams, RHB, XXy, 2015-Present
+AD Mascarenhas, ENGLAND, Various Teams, RHB, XXy, 2008-2012
+AD Mathews, SRI LANKA, Various Teams, RHB, XXy, 2010-2021
+AD Nath, INDIA, KKR, Right-HB, XXy, 2016-2016
+AD Russell, WEST INDIES, Various Teams, Right-HB, XXy, 2012-Present
+AF Milne, NEW ZEALAND, RCB, Right-HB, XXy, 2018-2020
+AG Murtaza, INDIA, RCB, Left-HB, XXy, 2011-2011
+AG Paunikar, INDIA, DD/DC, Right-HB, XXy, 2010-2011
+AJ Finch, AUSTRALIA, Various Teams, RHB, XXy, 2010-Present
+AJ Turner, AUSTRALIA, RR, Right-HB, XXy, 2018-Present
+AJ Tye, AUSTRALIA, Various Teams, Right-HB, XXy, 2017-Present
+AK Markram, SOUTH AFRICA, PUNE, Right-HB, XXy, 2020-2020
+AL Menaria, INDIA, RR, Left-HB, XXy, 2011-2015
+AM Nayar, INDIA, Various Teams, Right-HB, XXy, 2008-2014
+AM Rahane, INDIA, RR, Right-HB, XXy, 2008-2021
+AM Salvi, INDIA, RR, Right-HB, XXy, 2008-2010
+AN Ahmed, INDIA, RR, Right-HB, XXy, 2008-2015
+AN Ghosh, INDIA, RCB, Right-HB, XXy, 2013-2016
+AP Dole, INDIA, RR, Right-HB, XXy, 2009-2010
+AP Majumdar, INDIA, KKR, Right-HB, XXy, 2008-2010
+AP Tare, INDIA, MI, Right-HB, XXy, 2010-Present
+AR Bawne, INDIA, RCB, Right-HB, XXy, 2017-2017
+AR Patel, INDIA, Various Teams, Right-HB, XXy, 2008-2021
+AS Joseph, WEST INDIES, MI, Right-HB, XXy, 2019-Present
+AS Rajpoot, INDIA, Various Teams, Right-HB, XXy, 2017-2021
+AS Raut, INDIA, RCB, Right-HB, XXy, 2011-2013
+AS Roy, INDIA, DD/DC, Right-HB, XXy, 2015-2016
+AS Yadav, INDIA, KKR, Right-HB, XXy, 2012-Present
+AT Carey, AUSTRALIA, DC, Left-HB, XXy, 2019-Present
+AT Rayudu, INDIA, Various Teams, Right-HB, XXy, 2008-2021
+AU Rashid, AFGHANISTAN, SRH, Right-HB, XXy, 2017-Present
+AUK Pathan, INDIA, RR, Right-HB, XXy, 2008-2017
+Abdul Samad, INDIA, SRH, Right-HB, XXy, 2020-Present
+Abdur Razzak, BANGLADESH, RCB, Left-HB, XXy, 2008-2008
+Abhishek Sharma, INDIA, Various Teams, Left-HB, XXy, 2018-Present
+Akash Deep, INDIA, KKR, Right-HB, XXy, 2021-Present
+Akash Singh, INDIA, RR, Left-HB, XXy, 2020-Present
+Aman Hakim Khan, INDIA, KXIP, Right-HB, XXy, 2009-2009
+Anand Rajan, INDIA, KXIP, Right-HB, XXy, 2008-2013
+Anirudh Singh, INDIA, Various Teams, Left-HB, XXy, 2008-2013
+Ankit Sharma, INDIA, Various Teams, Left-HB, XXy, 2013-2019
+Ankit Soni, INDIA, MI, Right-HB, XXy, 2016-2019
+Anmolpreet Singh, INDIA, MI, Right-HB, XXy, 2019-Present
+Anuj Rawat, INDIA, RR, Right-HB, XXy, 2018-Present
+Anureet Singh, INDIA, Various Teams, Right-HB, XXy, 2013-2019
+Arshdeep Singh, INDIA, KXIP, Right-HB, XXy, 2019-Present
+Avesh Khan, INDIA, DC, Right-HB, XXy, 2017-Present
+Azhar Mahmood, PAKISTAN, KXIP, Right-HB, XXy, 2008-2012
+B Akhil, INDIA, RCB, Right-HB, XXy, 2008-2008
+B Chipli, INDIA, RCB, Right-HB, XXy, 2008-2013
+B Geeves, AUSTRALIA, DD/DC, Right-HB, XXy, 2008-2009
+B Indrajith, INDIA, RR, Right-HB, XXy, 2008-2012
+B Kumar, INDIA, SRH, Right-HB, XXy, 2008-Present
+B Laughlin, AUSTRALIA, Various Teams, Right-HB, XXy, 2013-2018
+B Lee, AUSTRALIA, KKR, Right-HB, XXy, 2008-2012
+B Sai Sudharsan, INDIA, RCB, Right-HB, XXy, 2008-2008
+B Stanlake, AUSTRALIA, Various Teams, Right-HB, XXy, 2017-2020
+B Sumanth, INDIA, SRH, Right-HB, XXy, 2008-2008
+BA Bhatt, INDIA, Various Teams, Right-HB, XXy, 2008-2017
+BA Stokes, ENGLAND, Various Teams, Left-HB, XXy, 2017-Present
+BAW Mendis, SRI LANKA, KKR, Right-HB, XXy, 2008-2008
+BB McCullum, NEW ZEALAND, Various Teams, Right-HB, XXy, 2008-2018
+BB Samantray, INDIA, SRH, Right-HB, XXy, 2012-2017
+BB Sran, INDIA, Various Teams, Left-HB, XXy, 2015-2019
+BCJ Cutting, AUSTRALIA, Various Teams, Right-HB, XXy, 2016-Present
+BE Hendricks, SOUTH AFRICA, KXIP, Left-HB, XXy, 2019-2019
+BJ Haddin, AUSTRALIA, KKR, Right-HB, XXy, 2011-2011
+BJ Hodge, AUSTRALIA, Various Teams, Right-HB, XXy, 2008-2017
+BJ Rohrer, AUSTRALIA, DD/DC, Left-HB, XXy, 2012-2013
+BMAJ Mendis, SRI LANKA, PWI, Right-HB, XXy, 2013-2013
+BR Dunk, AUSTRALIA, MI, Left-HB, XXy, 2014-2018
+BW Hilfenhaus, AUSTRALIA, CSK, Right-HB, XXy, 2011-2015
+Basil Thampi, INDIA, SRH, Right-HB, XXy, 2017-Present
+Bipul Sharma, INDIA, Various Teams, Left-HB, XXy, 2011-2017
+C Ganapathy, INDIA, CSK, Left-HB, XXy, 2008-2011
+C Madan, INDIA, RCB, Right-HB, XXy, 2008-2010
+C Munro, NEW ZEALAND, Various Teams, Left-HB, XXy, 2016-2019
+C Nanda, INDIA, DD/DC, Left-HB, XXy, 2008-2012
+C Sakariya, INDIA, RR, Right-HB, XXy, 2021-Present
+C de Grandhomme, NEW ZEALAND, Various Teams, Right-HB, XXy, 2017-2020
+CA Ingram, SOUTH AFRICA, DD/DC, Left-HB, XXy, 2011-2012
+CA Lynn, AUSTRALIA, Various Teams, Right-HB, XXy, 2012-Present
+CA Pujara, INDIA, KKR, Right-HB, XXy, 2010-2014
+CH Gayle, WEST INDIES, Various Teams, Left-HB, XXy, 2008-Present
+CH Morris, SOUTH AFRICA, Various Teams, Right-HB, XXy, 2013-Present
+CJ Anderson, NEW ZEALAND, MI, Left-HB, XXy, 2014-2018
+CJ Dala, SOUTH AFRICA, DD/DC, Right-HB, XXy, 2019-2019
+CJ Ferguson, AUSTRALIA, RR, Right-HB, XXy, 2008-2010
+CJ Green, AUSTRALIA, RR, Right-HB, XXy, 2020-2020
+CJ Jordan, ENGLAND, RCB, Right-HB, XXy, 2016-2019
+CJ McKay, AUSTRALIA, DD/DC, Right-HB, XXy, 2012-2015
+CK Kapugedera, SRI LANKA, Various Teams, Right-HB, XXy, 2008-2012
+CK Langeveldt, SOUTH AFRICA, KKR, Right-HB, XXy, 2008-2010
+CL White, AUSTRALIA, Various Teams, Right-HB, XXy, 2008-2017
+CM Gautam, INDIA, RR, Right-HB, XXy, 2008-2019
+CR Brathwaite, WEST INDIES, DD/DC, Right-HB, XXy, 2016-2020
+CR Woakes, ENGLAND, Various Teams, Right-HB, XXy, 2017-Present
+CRD Fernando, SRI LANKA, CSK, Right-HB, XXy, 2008-2010
+CV Varun, INDIA, KKR, Right-HB, XXy, 2019-Present
+D Brevis, WEST INDIES, MI, Right-HB, XXy, 2021-Present
+D Kalyankrishna, INDIA, DD/DC, Right-HB, XXy, 2008-2009
+D Padikkal, INDIA, RCB, Left-HB, XXy, 2020-Present
+D Pretorius, SOUTH AFRICA, RCB, Right-HB, XXy, 2016-2017
+D Salunkhe, INDIA, RR, Right-HB, XXy, 2008-2008
+D Wiese, SOUTH AFRICA, RCB, Right-HB, XXy, 2015-2016
+D du Preez, SOUTH AFRICA, RCB, Right-HB, XXy, 2010-2010
+DA Miller, SOUTH AFRICA, Various Teams, Left-HB, XXy, 2012-Present
+DA Warner, AUSTRALIA, Various Teams, Left-HB, XXy, 2009-Present
+DAJ Bracewell, NEW ZEALAND, DD/DC, Right-HB, XXy, 2012-2012
+DB Das, INDIA, RCB, Left-HB, XXy, 2008-2012
+DB Ravi Teja, INDIA, SRH, Right-HB, XXy, 2008-2012
+DE Bollinger, AUSTRALIA, CSK, Right-HB, XXy, 2008-2015
+DG Nalkande, INDIA, KXIP, Right-HB, XXy, 2019-2019
+DH Yagnik, INDIA, Various Teams, Left-HB, XXy, 2008-2014
+DJ Bravo, WEST INDIES, Various Teams, Right-HB, XXy, 2008-Present
+DJ Harris, AUSTRALIA, DD/DC, Right-HB, XXy, 2008-2009
+DJ Hooda, INDIA, Various Teams, Right-HB, XXy, 2015-Present
+DJ Hussey, AUSTRALIA, Various Teams, Right-HB, XXy, 2008-2013
+DJ Jacobs, SOUTH AFRICA, MI, Right-HB, XXy, 2008-2012
+DJ Malan, ENGLAND, PBKS, Left-HB, XXy, 2021-Present
+DJ Mitchell, NEW ZEALAND, MI, Right-HB, XXy, 2011-2012
+DJ Muthuswami, INDIA, RCB, Right-HB, XXy, 2016-2016
+DJ Thornely, AUSTRALIA, MI, Right-HB, XXy, 2008-2009
+DJ Willey, ENGLAND, CSK, Left-HB, XXy, 2018-2018
+DJG Sammy, WEST INDIES, Various Teams, Right-HB, XXy, 2008-2017
+DJM Short, AUSTRALIA, RR, Left-HB, XXy, 2018-2020
+DL Chahar, INDIA, CSK, Right-HB, XXy, 2018-Present
+DL Vettori, NEW ZEALAND, Various Teams, Left-HB, XXy, 2008-2013
+DM Bravo, WEST INDIES, MI, Left-HB, XXy, 2011-2011
+DNT Zoysa, SRI LANKA, MI, Left-HB, XXy, 2008-2008
+DP Conway, NEW ZEALAND, KK, Left-HB, XXy, 2021-Present
+DP Nannes, AUSTRALIA, Various Teams, Right-HB, XXy, 2008-2010
+DP Vijaykumar, INDIA, Various Teams, Right-HB, XXy, 2008-2011
+DPMD Jayawardene, SRI LANKA, Various Teams, Right-HB, XXy, 2008-2013
+DR Martyn, AUSTRALIA, KXIP, Right-HB, XXy, 2008-2009
+DR Sams, AUSTRALIA, DC, Right-HB, XXy, 2018-Present
+DR Shorey, INDIA, CSK, Right-HB, XXy, 2018-2018
+DR Smith, WEST INDIES, Various Teams, Right-HB, XXy, 2008-Present
+DS Kulkarni, INDIA, Various Teams, Right-HB, XXy, 2008-Present
+DS Lehmann, AUSTRALIA, RR, Right-HB, XXy, 2008-2008
+DT Christian, AUSTRALIA, Various Teams, Right-HB, XXy, 2011-2021
+DT Patil, INDIA, DD/DC, Right-HB, XXy, 2011-2011
+DW Steyn, SOUTH AFRICA, Various Teams, Right-HB, XXy, 2008-2016
+E Lewis, WEST INDIES, MI, Left-HB, XXy, 2018-2019
+EJG Morgan, ENGLAND, Various Teams, Left-HB, XXy, 2010-Present
+ER Dwivedi, INDIA, SRH, Right-HB, XXy, 2016-2019
+F Behardien, SOUTH AFRICA, DD/DC, Right-HB, XXy, 2012-2018
+F du Plessis, SOUTH AFRICA, CSK, Right-HB, XXy, 2012-Present
+FA Allen, WEST INDIES, SRH, Left-HB, XXy, 2018-2019
+FH Edwards, WEST INDIES, MI, Right-HB, XXy, 2008-2009
+FY Fazal, INDIA, RR, Left-HB, XXy, 2008-2009
+Fazalhaq Farooqi, AFGHANISTAN, RR, Right-HB, XXy, 2021-Present
+G Gambhir, INDIA, Various Teams, Left-HB, XXy, 2008-2018
+GB Hogg, AUSTRALIA, KKR, Left-HB, XXy, 2008-2017
+GC Smith, SOUTH AFRICA, Various Teams, Left-HB, XXy, 2008-2014
+GC Viljoen, SOUTH AFRICA, KXIP, Right-HB, XXy, 2016-2017
+GD McGrath, AUSTRALIA, DD/DC, Right-HB, XXy, 2008-2008
+GD Phillips, NEW ZEALAND, DD/DC, Right-HB, XXy, 2008-2008
+GH Vihari, INDIA, SRH, Right-HB, XXy, 2013-2020
+GHS Garton, ENGLAND, RR, Right-HB, XXy, 2021-Present
+GJ Bailey, AUSTRALIA, CSK, Right-HB, XXy, 2008-2015
+GJ Maxwell, AUSTRALIA, Various Teams, Right-HB, XXy, 2012-Present
+GR Napier, ENGLAND, DD/DC, Right-HB, XXy, 2008-2009
+GS Sandhu, AUSTRALIA, DD/DC, Right-HB, XXy, 2015-2015
+Gagandeep Singh, INDIA, KXIP, Right-HB, XXy, 2008-2012
+Gurkeerat Singh, INDIA, KXIP, Right-HB, XXy, 2012-Present
+H Das, INDIA, RCB, Right-HB, XXy, 2008-2009
+H Klaasen, SOUTH AFRICA, RR, Right-HB, XXy, 2019-2019
+HE van der Dussen, SOUTH AFRICA, RR, Right-HB, XXy, 2020-Present
+HF Gurney, ENGLAND, KKR, Right-HB, XXy, 2019-2019
+HH Gibbs, SOUTH AFRICA, DD/DC, Right-HB, XXy, 2008-2012
+HH Pandya, INDIA, GT, Right-HB, XXy, 2015-Present
+HM Amla, SOUTH AFRICA, KXIP, Right-HB, XXy, 2016-2017
+HR Shokeen, INDIA, RR, Right-HB, XXy, 2008-2011
+HV Patel, INDIA, RCB, Right-HB, XXy, 2012-2017
+Harbhajan Singh, INDIA, MI, Right-HB, XXy, 2008-2020
+Harmeet Singh, INDIA, Various Teams, Right-HB, XXy, 2012-2013
+Harmeet Singh (2), INDIA, SRH, Right-HB, XXy, 2012-2012
+Harpreet Brar, INDIA, KXIP, Left-HB, XXy, 2019-Present
+Harpreet Singh, INDIA, RCB, Right-HB, XXy, 2018-2019
+Harshit Rana, INDIA, DD/DC, Right-HB, XXy, 2019-201
+Imran Tahir, SOUTH AFRICA, Various Teams, Right-HB, XXy, 2014-Present
+Iqbal Abdulla, INDIA, Various Teams, Left-HB, XXy, 2008-2017
+Ishan Kishan, INDIA, MI, Left-HB, XXy, 2016-Present
+J Arunkumar, INDIA, RCB, Right-HB, XXy, 2008-2008
+J Botha, SOUTH AFRICA, RR, Right-HB, XXy, 2008-2014
+J Suchith, INDIA, Various Teams, Left-HB, XXy, 2015-2019
+J Syed Mohammad, INDIA, KKR, Right-HB, XXy, 2008-2014
+J Theron, SOUTH AFRICA, KXIP, Right-HB, XXy, 2010-2011
+J Yadav, INDIA, Various Teams, Left-HB, XXy, 2011-Present
+JA Morkel, SOUTH AFRICA, Various Teams, Left-HB, XXy, 2008-2018
+JA Richardson, AUSTRALIA, RR, Right-HB, XXy, 2019-Present
+JC Archer, ENGLAND, RR, Right-HB, XXy, 2018-Present
+JC Buttler, ENGLAND, RR, Right-HB, XXy, 2016-Present
+JD Ryder, NEW ZEALAND, Various Teams, Left-HB, XXy, 2008-2016
+JD Unadkat, INDIA, Various Teams, Right-HB, XXy, 2010-Present
+JDP Oram, NEW ZEALAND, Various Teams, Left-HB, XXy, 2008-2013
+JDS Neesham, NEW ZEALAND, MI, Left-HB, XXy, 2014-2019
+JE Taylor, WEST INDIES, DD/DC, Right-HB, XXy, 2008-2021
+JEC Franklin, NEW ZEALAND, Various Teams, Left-HB, XXy, 2008-2015
+JH Kallis, SOUTH AFRICA, Various Teams, Right-HB, XXy, 2008-2018
+JJ Bumrah, INDIA, MI, Right-HB, XXy, 2013-Present
+JJ Roy, ENGLAND, DD/DC, Right-HB, XXy, 2017-2017
+JJ van der Wath, SOUTH AFRICA, RCB, Right-HB, XXy, 2008-2008
+JL Denly, ENGLAND, KKR, Right-HB, XXy, 2010-2010
+JL Pattinson, AUSTRALIA, MI, Right-HB, XXy, 2011-2012
+JM Bairstow, ENGLAND, SRH, Right-HB, XXy, 2019-Present
+JM Kemp, SOUTH AFRICA, RR, Right-HB, XXy, 2008-2008
+JM Sharma, INDIA, Various Teams, Right-HB, XXy, 2011-2017
+JO Holder, WEST INDIES, SRH, Right-HB, XXy, 2013-Present
+JP Behrendorff, AUSTRALIA, MI, Left-HB, XXy, 2019-2020
+JP Duminy, SOUTH AFRICA, Various Teams, Left-HB, XXy, 2008-2017
+JP Faulkner, AUSTRALIA, RR, Right-HB, XXy, 2011-2019
+JPR Scantlebury-Searles, WEST INDIES, KKR, Right-HB, XXy, 2018-2019
+JR Hazlewood, AUSTRALIA, CSK, Right-HB, XXy, 2013-2015
+JR Hopes, AUSTRALIA, DD/DC, Right-HB, XXy, 2008-2012
+JR Philippe, AUSTRALIA, RCB, Right-HB, XXy, 2020-Present
+JW Hastings, AUSTRALIA, Various Teams, Right-HB, XXy, 2011-2018
+Jalaj S Saxena, INDIA, Various Teams, Right-HB, XXy, 2013-2020
+Jaskaran Singh, INDIA, RR, Right-HB, XXy, 2020-2020
+Joginder Sharma, INDIA, CSK, Right-HB, XXy, 2008-2009
+K Goel, INDIA, KXIP, Right-HB, XXy, 2008-2012
+K Gowtham, INDIA, RR, Right-HB, XXy, 2017-Present
+K Kartikeya, INDIA, KXIP, Right-HB, XXy, 2008-2012
+K Khejroliya, INDIA, RCB, Left-HB, XXy, 2018-2019
+K Rabada, SOUTH AFRICA, DD/DC, Right-HB, XXy, 2017-Present
+K Santokie, WEST INDIES, MI, Left-HB, XXy, 2014-2014
+K Upadhyay, INDIA, DD/DC, Right-HB, XXy, 2008-2009
+K Yadav, INDIA, MI, Left-HB, XXy, 2012-Present
+KA Jamieson, NEW ZEALAND, RCB, Right-HB, XXy, 2021-Present
+KA Pollard, WEST INDIES, MI, Right-HB, XXy, 2010-Present
+KAJ Roach, WEST INDIES, DD/DC, Right-HB, XXy, 2013-2013
+KB Arun Karthik, INDIA, RCB, Right-HB, XXy, 2008-2008
+KC Cariappa, INDIA, Various Teams, Right-HB, XXy, 2015-2019
+KC Sangakkara, SRI LANKA, Various Teams, Left-HB, XXy, 2008-2017
+KD Karthik, INDIA, Various Teams, Right-HB, XXy, 2008-Present
+KH Pandya, INDIA, MI, Right-HB, XXy, 2016-Present
+KJ Abbott, SOUTH AFRICA, KXIP, Right-HB, XXy, 2016-2016
+KK Ahmed, INDIA, SRH, Right-HB, XXy, 2018-2020
+KK Cooper, WEST INDIES, RR, Right-HB, XXy, 2010-2019
+KK Nair, INDIA, Various Teams, Right-HB, XXy, 2013-2020
+KL Nagarkoti, INDIA, KKR, Right-HB, XXy, 2018-Present
+KL Rahul, INDIA, Various Teams, Right-HB, XXy, 2013-Present
+KM Asif, INDIA, CSK, Right-HB, XXy, 2018-2020
+KM Jadhav, INDIA, Various Teams, Right-HB, XXy, 2010-Present
+KMA Paul, WEST INDIES, DD/DC, Right-HB, XXy, 2018-2020
+KMDN Kulasekara, SRI LANKA, KKR, Right-HB, XXy, 2011-2011
+KP Appanna, INDIA, Various Teams, Left-HB, XXy, 2008-2013
+KP Pietersen, ENGLAND, RCB, Right-HB, XXy, 2009-2017
+KR Sen, INDIA, KKR, Right-HB, XXy, 2008-2008
+KS Bharat, INDIA, RCB, Right-HB, XXy, 2019-2019
+KS Sharma, INDIA, RCB, Right-HB, XXy, 2008-2018
+KS Williamson, NEW ZEALAND, SRH, Right-HB, XXy, 2015-Present
+KV Sharma, INDIA, Various Teams, Right-HB, XXy, 2011-Present
+KW Richardson, AUSTRALIA, RR, Right-HB, XXy, 2013-2021
+Kamran Akmal, PAKISTAN, RR, Right-HB, XXy, 2008-2008
+Kamran Khan, PAKISTAN, RR, Right-HB, XXy, 2008-2009
+Karanveer Singh, INDIA, KXIP, Right-HB, XXy, 2014-2017
+Kartik Tyagi, INDIA, RR, Right-HB, XXy, 2020-Present
+Kuldeep Yadav, INDIA, KKR, Left-HB, XXy, 2016-Present
+L Ablish, INDIA, DD/DC, Right-HB, XXy, 2008-2009
+L Balaji, INDIA, Various Teams, Right-HB, XXy, 2008-2014
+L Ngidi, SOUTH AFRICA, CSK, Right-HB, XXy, 2018-Present
+L Ronchi, NEW ZEALAND, MI, Right-HB, XXy, 2008-2008
+LA Carseldine, AUSTRALIA, RR, Left-HB, XXy, 2010-2010
+LA Pomersbach, AUSTRALIA, Various Teams, Left-HB, XXy, 2008-2013
+LE Plunkett, ENGLAND, DD/DC, Right-HB, XXy, 2018-2018
+LH Ferguson, NEW ZEALAND, KKR, Right-HB, XXy, 2019-2019
+LI Meriwala, INDIA, PBKS, Left-HB, XXy, 2021-Present
+LJ Wright, ENGLAND, PWI, Right-HB, XXy, 2011-2011
+LMP Simmons, WEST INDIES, MI, Right-HB, XXy, 2014-2017
+LPC Silva, SRI LANKA, DD/DC, Left-HB, XXy, 2008-2008
+LR Shukla, INDIA, Various Teams, Right-HB, XXy, 2008-2014
+LRPL Taylor, NEW ZEALAND, DD/DC, Right-HB, XXy, 2008-2016
+LS Livingstone, ENGLAND, RR, Right-HB, XXy, 2019-2019
+Lalit Yadav, INDIA, DC, Right-HB, XXy, 2021-Present
+M Ashwin, INDIA, RPS, Right-HB, XXy, 2016-2017
+M Jansen, SOUTH AFRICA, RR, Right-HB, XXy, 2020-2020
+M Kaif, INDIA, RR, Right-HB, XXy, 2011-2013
+M Kartik, INDIA, Various Teams, Right-HB, XXy, 2008-2013
+M Klinger, AUSTRALIA, RR, Right-HB, XXy, 2009-2009
+M Manhas, INDIA, Various Teams, Right-HB, XXy, 2008-2014
+M Markande, INDIA, MI, Right-HB, XXy, 2018-Present
+M Morkel, SOUTH AFRICA, Various Teams, Right-HB, XXy, 2008-2018
+M Muralitharan, SRI LANKA, Various Teams, Right-HB, XXy, 2008-2014
+M Ntini, SOUTH AFRICA, CSK, Right-HB, XXy, 2008-2010
+M Pathirana, SRI LANKA, RR, Right-HB, XXy, 2009-2010
+M Prasidh Krishna, INDIA, KKR, Right-HB, XXy, 2018-Present
+M Rawat, INDIA, DD/DC, Right-HB, XXy, 2008-2013
+M Shahrukh Khan, INDIA, PBKS, Right-HB, XXy, 2021-Present
+M Theekshana, SRI LANKA, RCB, Left-HB, XXy, 2021-Present
+M Vijay, INDIA, Various Teams, Right-HB, XXy, 2008-Present
+M Vohra, INDIA, Various Teams, Right-HB, XXy, 2013-2020
+M de Lange, SOUTH AFRICA, RCB, Right-HB, XXy, 2012-2012
+MA Agarwal, INDIA, Various Teams, Right-HB, XXy, 2011-Present
+MA Khote, INDIA, RR, Right-HB, XXy, 2008-2008
+MA Starc, AUSTRALIA, Various Teams, Left-HB, XXy, 2014-2015
+MA Wood, ENGLAND, DD/DC, Right-HB, XXy, 2015-2016
+MB Parmar, INDIA, KXIP, Right-HB, XXy, 2008-2008
+MC Henriques, AUSTRALIA, Various Teams, Right-HB, XXy, 2009-Present
+MC Juneja, INDIA, MI, Right-HB, XXy, 2012-2014
+MD Mishra, INDIA, DD/DC, Right-HB, XXy, 2008-2012
+MDKJ Perera, SRI LANKA, Various Teams, Left-HB, XXy, 2010-2016
+MEK Hussey, AUSTRALIA, CSK, Left-HB, XXy, 2008-2015
+MF Maharoof, SRI LANKA, DD/DC, Right-HB, XXy, 2008-2012
+MG Johnson, AUSTRALIA, MI, Left-HB, XXy, 2008-2018
+MG Neser, AUSTRALIA, RCB, Right-HB, XXy, 2018-2018
+MJ Clarke, AUSTRALIA, PWI, Right-HB, XXy, 2012-2012
+MJ Guptill, NEW ZEALAND, MI, Right-HB, XXy, 2011-2012
+MJ Henry, NEW ZEALAND, KXIP, Right-HB, XXy, 2016-2016
+MJ Lumb, ENGLAND, RR, Left-HB, XXy, 2010-2010
+MJ McClenaghan, NEW ZEALAND, MI, Left-HB, XXy, 2015-2018
+MJ Santner, NEW ZEALAND, CSK, Left-HB, XXy, 2018-Present
+MK Lomror, INDIA, RR, Left-HB, XXy, 2018-Present
+MK Pandey, INDIA, Various Teams, Right-HB, XXy, 2008-Present
+MK Tiwary, INDIA, Various Teams, Right-HB, XXy, 2008-2018
+ML Hayden, AUSTRALIA, CSK, Left-HB, XXy, 2008-2010
+MM Ali, ENGLAND, RCB, Right-HB, XXy, 2015-2015
+MM Patel, INDIA, RCB, Left-HB, XXy, 2008-2010
+MM Sharma, INDIA, Various Teams, Right-HB, XXy, 2012-Present
+MN Samuels, WEST INDIES, RR, Right-HB, XXy, 2011-2011
+MN van Wyk, SOUTH AFRICA, RCB, Right-HB, XXy, 2008-2009
+MP Stoinis, AUSTRALIA, Various Teams, Right-HB, XXy, 2015-Present
+MR Marsh, AUSTRALIA, Various Teams, Right-HB, XXy, 2010-Present
+MS Bisla, INDIA, Various Teams, Right-HB, XXy, 2010-2014
+MS Dhoni, INDIA, CSK, Right-HB, XXy, 2008-Present
+MS Gony, INDIA, Various Teams, Right-HB, XXy, 2008-2017
+MS Wade, AUSTRALIA, DD/DC, Left-HB, XXy, 2011-2018
+MV Boucher, SOUTH AFRICA, RCB, Right-HB, XXy, 2008-2010
+Mandeep Singh, INDIA, Various Teams, Right-HB, XXy, 2010-Present
+Mashrafe Mortaza, BANGLADESH, KKR, Right-HB, XXy, 2008-2009
+Misbah-ul-Haq, PAKISTAN, RCB, Right-HB, XXy, 2008-2008
+Mohammad Ashraful, BANGLADESH, DD/DC, Right-HB, XXy, 2008-2010
+Mohammad Asif, PAKISTAN, DD/DC, Right-HB, XXy, 2008-2008
+Mohammad Hafeez, PAKISTAN, Various Teams, Right-HB, XXy, 2008-2020
+Mohammad Nabi, AFGHANISTAN, SRH, Right-HB, XXy, 2017-Present
+Mohammed Shami, INDIA, Various Teams, Right-HB, XXy, 2013-Present
+Mohammed Siraj, INDIA, RCB, Right-HB, XXy, 2018-Present
+Mohsin Khan (2), PAKISTAN, KKR, Right-HB, XXy, 2008-2008
+Monu Kumar, INDIA, CSK, Right-HB, XXy, 2018-Present
+Mujeeb Ur Rahman, AFGHANISTAN, KXIP, Right-HB, XXy, 2018-Present
+Mukesh Choudhary, INDIA, CSK, Left-HB, XXy, 2020-2021
+Mustafizur Rahman, BANGLADESH, SRH, Left-HB, XXy, 2016-Present
+N Jagadeesan, INDIA, CSK, Right-HB, XXy, 2017-Present
+N Pooran, WEST INDIES, PBKS, Left-HB, XXy, 2019-Present
+N Rana, INDIA, KKR, Left-HB, XXy, 2016-Present
+N Saini, INDIA, RCB, Right-HB, XXy, 2018-Present
+NA Saini, INDIA, DD/DC, Right-HB, XXy, 2017-2017
+NB Singh, INDIA, KXIP, Right-HB, XXy, 2009-2011
+ND Doshi, INDIA, Various Teams, Right-HB, XXy, 2008-2013
+NJ Maddinson, AUSTRALIA, RCB, Left-HB, XXy, 2014-2014
+NJ Rimmington, AUSTRALIA, KXIP, Right-HB, XXy, 2011-2011
+NL McCullum, NEW ZEALAND, KKR, Right-HB, XXy, 2008-2010
+NLTC Perera, SRI LANKA, MI, Left-HB, XXy, 2010-2014
+NM Coulter-Nile, AUSTRALIA, Various Teams, Right-HB, XXy, 2013-2019
+NS Naik, INDIA, MI, Right-HB, XXy, 2008-2008
+NT Ellis, NEW ZEALAND, KKR, Right-HB, XXy, 2009-2009
+NV Ojha, INDIA, Various Teams, Left-HB, XXy, 2008-2015
+Niraj Patel, INDIA, MI, Right-HB, XXy, 2008-2008
+O Thomas, WEST INDIES, RR, Right-HB, XXy, 2015-2019
+OA Shah, ENGLAND, DD/DC, Right-HB, XXy, 2008-2013
+OC McCoy, WEST INDIES, SRH, Right-HB, XXy, 2020-2020
+OF Smith, AUSTRALIA, RPS, Right-HB, XXy, 2017-2017
+P Amarnath, INDIA, KXIP, Right-HB, XXy, 2008-2008
+P Awana, INDIA, KXIP, Right-HB, XXy, 2012-2015
+P Chopra, INDIA, KKR, Right-HB, XXy, 2008-2009
+P Dogra, INDIA, Various Teams, Left-HB, XXy, 2008-2014
+P Dubey, INDIA, RCB, Right-HB, XXy, 2019-2019
+P Kumar, INDIA, RCB, Left-HB, XXy, 2008-2017
+P Negi, INDIA, Various Teams, Left-HB, XXy, 2012-Present
+P Parameswaran, INDIA, KKR, Left-HB, XXy, 2011-2012
+P Prasanth, INDIA, RCB, Right-HB, XXy, 2008-2010
+P Ray Barman, INDIA, RCB, Right-HB, XXy, 2019-2019
+P Sahu, INDIA, RPS, Right-HB, XXy, 2016-2017
+P Simran Singh, INDIA, KXIP, Right-HB, XXy, 2018-2020
+P Suyal, INDIA, MI, Left-HB, XXy, 2011-2013
+PA Patel, INDIA, Various Teams, Right-HB, XXy, 2008-2018
+PA Reddy, INDIA, SRH, Right-HB, XXy, 2012-2013
+PBB Rajapaksa, SRI LANKA, RCB, Left-HB, XXy, 2009-2009
+PC Valthaty, INDIA, KXIP, Right-HB, XXy, 2011-2013
+PD Collingwood, ENGLAND, DD/DC, Right-HB, XXy, 2010-2011
+PH Solanki, INDIA, RCB, Right-HB, XXy, 2008-2008
+PJ Cummins, AUSTRALIA, KKR, Right-HB, XXy, 2014-2015
+PJ Sangwan, INDIA, DD/DC, Right-HB, XXy, 2008-2018
+PK Garg, INDIA, KKR, Right-HB, XXy, 2008-2012
+PM Sarvesh Kumar, INDIA, KXIP, Right-HB, XXy, 2008-2010
+PN Mankad, INDIA, CSK, Right-HB, XXy, 2008-2008
+PP Chawla, INDIA, Various Teams, Left-HB, XXy, 2008-Present
+PP Ojha, INDIA, Various Teams, Right-HB, XXy, 2008-2015
+PP Shaw, INDIA, DD/DC, Right-HB, XXy, 2018-Present
+PR Shah, INDIA, RCB, Right-HB, XXy, 2008-2010
+PSP Handscomb, AUSTRALIA, RPS, Right-HB, XXy, 2017-2017
+PV Tambe, INDIA, RR, Right-HB, XXy, 2013-2015
+PVD Chameera, SRI LANKA, RCB, Right-HB, XXy, 2021-Present
+PWH de Silva, SRI LANKA, DD/DC, Right-HB, XXy, 2008-2010
+Pankaj Singh, INDIA, Various Teams, Right-HB, XXy, 2008-2016
+Parvez Rasool, INDIA, SRH, Right-HB, XXy, 2013-2016
+Q de Kock, SOUTH AFRICA, Various Teams, Left-HB, XXy, 2013-Present
+R Ashwin, INDIA, Various Teams, Right-HB, XXy, 2009-Present
+R Bhatia, INDIA, Various Teams, Right-HB, XXy, 2008-2017
+R Bishnoi, INDIA, KXIP, Right-HB, XXy, 2019-Present
+R Dhawan, INDIA, Various Teams, Right-HB, XXy, 2008-2019
+R Dravid, INDIA, RR, Right-HB, XXy, 2008-2013
+R McLaren, SOUTH AFRICA, KXIP, Left-HB, XXy, 2009-2010
+R Ninan, INDIA, KXIP, Right-HB, XXy, 2008-2009
+R Parag, INDIA, RR, Right-HB, XXy, 2019-Present
+R Powell, WEST INDIES, DD/DC, Right-HB, XXy, 2012-2019
+R Rampaul, WEST INDIES, RCB, Right-HB, XXy, 2008-2014
+R Sai Kishore, INDIA, CSK, Left-HB, XXy, 2018-Present
+R Sanjay Yadav, INDIA, KKR, Left-HB, XXy, 2020-2020
+R Sathish, INDIA, Various Teams, Right-HB, XXy, 2008-2016
+R Sharma, INDIA, RR, Right-HB, XXy, 2008-2012
+R Shepherd, WEST INDIES, RR, Right-HB, XXy, 2021-Present
+R Shukla, INDIA, Various Teams, Right-HB, XXy, 2008-2014
+R Tewatia, INDIA, Various Teams, Left-HB, XXy, 2014-Present
+R Vinay Kumar, INDIA, Various Teams, Right-HB, XXy, 2008-2019
+RA Bawa, INDIA, CSK, Right-HB, XXy, 2009-2009
+RA Jadeja, INDIA, Various Teams, Left-HB, XXy, 2008-Present
+RA Shaikh, INDIA, RR, Left-HB, XXy, 2009-2010
+RA Tripathi, INDIA, Various Teams, Right-HB, XXy, 2017-Present
+RD Chahar, INDIA, CSK, Right-HB, XXy, 2018-Present
+RD Gaikwad, INDIA, CSK, Right-HB, XXy, 2020-Present
+RE Levi, SOUTH AFRICA, MI, Left-HB, XXy, 2012-2012
+RE van der Merwe, SOUTH AFRICA, DD/DC, Left-HB, XXy, 2010-2010
+RG More, INDIA, RCB, Right-HB, XXy, 2018-2018
+RG Sharma, INDIA, MI, Right-HB, XXy, 2008-Present
+RJ Harris, AUSTRALIA, KXIP, Right-HB, XXy, 2011-2015
+RJ Peterson, SOUTH AFRICA, MI, Left-HB, XXy, 2008-2013
+RJ Quiney, AUSTRALIA, RR, Left-HB, XXy, 2012-2012
+RK Bhui, INDIA, SRH, Right-HB, XXy, 2014-2017
+RK Singh, INDIA, DD/DC, Right-HB, XXy, 2013-2015
+RM Patidar, INDIA, RCB, Right-HB, XXy, 2021-Present
+RN ten Doeschate, NETHERLANDS, KKR, Right-HB, XXy, 2011-2015
+RP Meredith, AUSTRALIA, RR, Right-HB, XXy, 2021-Present
+RP Singh, INDIA, Various Teams, Right-HB, XXy, 2008-2017
+RR Bhatkal, INDIA, RCB, Right-HB, XXy, 2011-2011
+RR Bose, INDIA, KKR, Right-HB, XXy, 2008-2008
+RR Pant, INDIA, DC, Left-HB, XXy, 2016-Present
+RR Powar, INDIA, KXIP, Right-HB, XXy, 2008-2013
+RR Raje, INDIA, RCB, Right-HB, XXy, 2008-2008
+RR Rossouw, SOUTH AFRICA, RCB, Left-HB, XXy, 2014-2016
+RR Sarwan, WEST INDIES, KXIP, Right-HB, XXy, 2008-2008
+RS Bopara, ENGLAND, Various Teams, Right-HB, XXy, 2008-2016
+RS Gavaskar, INDIA, KKR, Right-HB, XXy, 2008-2008
+RS Sodhi, NEW ZEALAND, RR, Right-HB, XXy, 2018-Present
+RT Ponting, AUSTRALIA, KKR, Right-HB, XXy, 2008-2013
+RV Gomez, WEST INDIES, RCB, Right-HB, XXy, 2009-2009
+RV Patel, INDIA, Various Teams, Right-HB, XXy, 2008-2013
+RV Uthappa, INDIA, Various Teams, Right-HB, XXy, 2008-Present
+RW Price, ZIMBABWE, DD/DC, Right-HB, XXy, 2008-2009
+Ramandeep Singh, INDIA, DD/DC, Right-HB, XXy, 2011-2011
+Rashid Khan, AFGHANISTAN, SRH, Right-HB, XXy, 2017-Present
+Rasikh Salam, INDIA, MI, Right-HB, XXy, 2019-2019
+Ravi Bishnoi, INDIA, PBKS, Right-HB, XXy, 2020-Present
+S Anirudha, INDIA, Various Teams, Right-HB, XXy, 2008-2014
+S Aravind, INDIA, RCB, Right-HB, XXy, 2008-2017
+S Badree, WEST INDIES, RCB, Right-HB, XXy, 2017-2017
+S Badrinath, INDIA, CSK, Right-HB, XXy, 2008-2013
+S Chanderpaul, WEST INDIES, RCB, Left-HB, XXy, 2008-2008
+S Dhawan, INDIA, Various Teams, Left-HB, XXy, 2008-Present
+S Dube, INDIA, RCB, Left-HB, XXy, 2019-Present
+S Gopal, INDIA, RR, Right-HB, XXy, 2014-Present
+S Kaul, INDIA, SRH, Right-HB, XXy, 2016-Present
+S Kaushik, INDIA, GL, Right-HB, XXy, 2016-2016
+S Ladda, INDIA, CSK, Right-HB, XXy, 2009-2013
+S Lamichhane, NEPAL, DC, Right-HB, XXy, 2018-Present
+S Midhun, INDIA, RR, Right-HB, XXy, 2018-Present
+S Nadeem, INDIA, DD/DC, Left-HB, XXy, 2011-Present
+S Narwal, INDIA, KXIP, Right-HB, XXy, 2009-2013
+S Rana, INDIA, MI, Left-HB, XXy, 2016-Present
+S Randiv, SRI LANKA, CSK, Right-HB, XXy, 2011-2012
+S Sandeep Warrier, INDIA, KKR, Right-HB, XXy, 2013-Present
+S Sohal, INDIA, KXIP, Right-HB, XXy, 2008-2011
+S Sreesanth, INDIA, RR, Right-HB, XXy, 2008-2019
+S Sriram, INDIA, KKR, Left-HB, XXy, 2008-2008
+S Tyagi, INDIA, RR, Right-HB, XXy, 2009-2014
+S Vidyut, INDIA, CSK, Left-HB, XXy, 2008-2010
+SA Abbott, SOUTH AFRICA, KXIP, Right-HB, XXy, 2014-2015
+SA Asnodkar, INDIA, RR, Right-HB, XXy, 2008-2010
+SA Yadav, INDIA, KKR, Right-HB, XXy, 2012-Present
+SB Bangar, INDIA, KKR, Right-HB, XXy, 2008-2009
+SB Jakati, INDIA, CSK, Left-HB, XXy, 2008-2015
+SB Joshi, INDIA, RCB, Left-HB, XXy, 2008-2008
+SB Styris, NEW ZEALAND, DC, Right-HB, XXy, 2008-2008
+SB Wagh, INDIA, RR, Right-HB, XXy, 2008-2009
+SC Ganguly, INDIA, KKR, Left-HB, XXy, 2008-2012
+SC Kuggeleijn, NEW ZEALAND, RCB, Right-HB, XXy, 2019-2019
+SD Chitnis, INDIA, MI, Right-HB, XXy, 2008-2010
+SD Lad, INDIA, MI, Left-HB, XXy, 2015-2015
+SE Bond, NEW ZEALAND, KKR, Right-HB, XXy, 2010-2010
+SE Marsh, AUSTRALIA, KXIP, Left-HB, XXy, 2008-2016
+SE Rutherford, NEW ZEALAND, RCB, Left-HB, XXy, 2015-2015
+SJ Srivastava, INDIA, KXIP, Right-HB, XXy, 2008-2013
+SK Raina, INDIA, CSK, Left-HB, XXy, 2008-Present
+SK Trivedi, INDIA, RR, Right-HB, XXy, 2008-2013
+SK Warne, AUSTRALIA, RR, Right-HB, XXy, 2008-2011
+SL Malinga, SRI LANKA, MI, Right-HB, XXy, 2008-2020
+SM Boland, AUSTRALIA, MI, Right-HB, XXy, 2016-2016
+SM Curran, ENGLAND, KXIP, Left-HB, XXy, 2019-Present
+SM Harwood, AUSTRALIA, CSK, Right-HB, XXy, 2008-2009
+SM Katich, AUSTRALIA, KXIP, Left-HB, XXy, 2008-2008
+SM Pollock, SOUTH AFRICA, MI, Right-HB, XXy, 2008-2008
+SMSM Senanayake, SRI LANKA, KKR, Right-HB, XXy, 2013-2015
+SN Khan, INDIA, KKR, Right-HB, XXy, 2008-2008
+SN Thakur, INDIA, CSK, Right-HB, XXy, 2015-Present
+SO Hetmyer, WEST INDIES, RCB, Left-HB, XXy, 2019-Present
+SP Fleming, NEW ZEALAND, CSK, Left-HB, XXy, 2008-2012
+SP Goswami, INDIA, SRH, Right-HB, XXy, 2008-2019
+SP Jackson, INDIA, RCB, Right-HB, XXy, 2017-2019
+SP Narine, WEST INDIES, KKR, Left-HB, XXy, 2012-Present
+SPD Smith, AUSTRALIA, Various Teams, Right-HB, XXy, 2012-Present
+SR Tendulkar, INDIA, MI, Right-HB, XXy, 2008-2013
+SR Watson, AUSTRALIA, RR, Right-HB, XXy, 2008-Present
+SS Agarwal, INDIA, KXIP, Right-HB, XXy, 2018-Present
+SS Cottrell, WEST INDIES, KXIP, Left-HB, XXy, 2020-Present
+SS Iyer, INDIA, DD/DC, Right-HB, XXy, 2015-Present
+SS Mundhe, INDIA, RCB, Right-HB, XXy, 2014-2014
+SS Prabhudessai, INDIA, RCB, Right-HB, XXy, 2011-2011
+SS Sarkar, BANGLADESH, RCB, Left-HB, XXy, 2019-2019
+SS Shaikh, INDIA, MI, Right-HB, XXy, 2008-2008
+SS Tiwary, INDIA, MI, Right-HB, XXy, 2008-2019
+ST Jayasuriya, SRI LANKA, MI, Left-HB, XXy, 2008-2010
+STR Binny, INDIA, Various Teams, Right-HB, XXy, 2008-2019
+SV Samson, INDIA, RR, Right-HB, XXy, 2013-Present
+SW Billings, ENGLAND, Various Teams, Right-HB, XXy, 2016-Present
+SW Tait, AUSTRALIA, RR, Right-HB, XXy, 2008-2017
+Sachin Baby, INDIA, RCB, Left-HB, XXy, 2013-Present
+Salman Butt, PAKISTAN, KKR, Left-HB, XXy, 2008-2010
+Sandeep Sharma, INDIA, Various Teams, Right-HB, XXy, 2013-Present
+Shahbaz Ahmed, INDIA, RCB, Left-HB, XXy, 2021-Present
+Shahid Afridi, PAKISTAN, Various Teams, Right-HB, XXy, 2008-2018
+Shakib Al Hasan, BANGLADESH, Various Teams, Left-HB, XXy, 2008-Present
+Shashank Singh, INDIA, DD/DC, Right-HB, XXy, 2019-Present
+Shivam Mavi, INDIA, KKR, Right-HB, XXy, 2018-Present
+Shivam Sharma, INDIA, SRH, Right-HB, XXy, 2014-2015
+Shoaib Ahmed, INDIA, DD/DC, Right-HB, XXy, 2011-2011
+Shoaib Akhtar, PAKISTAN, KKR, Right-HB, XXy, 2008-2008
+Shoaib Malik, PAKISTAN, Various Teams, Right-HB, XXy, 2008-Present
+Shubman Gill, INDIA, KKR, Right-HB, XXy, 2018-Present
+Simarjeet Singh, INDIA, RCB, Right-HB, XXy, 2021-Present
+Sohail Tanvir, PAKISTAN, RR, Right-HB, XXy, 2008-2017
+Sunny Gupta, INDIA, RR, Right-HB, XXy, 2011-2011
+Sunny Singh, INDIA, RCB, Right-HB, XXy, 2011-2011
+Swapnil Singh, INDIA, KXIP, Left-HB, XXy, 2015-2017
+T Banton, ENGLAND, KKR, Right-HB, XXy, 2020-2020
+T Henderson, NEW ZEALAND, RR, Right-HB, XXy, 2011-2011
+T Kohli, INDIA, RCB, Right-HB, XXy, 2008-2008
+T Natarajan, INDIA, SRH, Left-HB, XXy, 2017-Present
+T Shamsi, SOUTH AFRICA, RCB, Left-HB, XXy, 2016-Present
+T Stubbs, AUSTRALIA, KKR, Right-HB, XXy, 2010-2010
+T Taibu, ZIMBABWE, KKR, Right-HB, XXy, 2008-2008
+T Thushara, SRI LANKA, KXIP, Left-HB, XXy, 2008-2010
+TA Boult, NEW ZEALAND, DD/DC, Right-HB, XXy, 2014-Present
+TD Paine, AUSTRALIA, RR, Right-HB, XXy, 2008-2017
+TG Southee, NEW ZEALAND, Various Teams, Right-HB, XXy, 2011-Present
+TH David, AUSTRALIA, DD/DC, Right-HB, XXy, 2018-2018
+TK Curran, ENGLAND, KKR, Left-HB, XXy, 2018-Present
+TL Seifert, NEW ZEALAND, KKR, Right-HB, XXy, 2021-Present
+TL Suman, INDIA, Various Teams, Left-HB, XXy, 2008-2015
+TM Dilshan, SRI LANKA, DD/DC, Right-HB, XXy, 2008-2016
+TM Head, AUSTRALIA, RCB, Left-HB, XXy, 2016-2016
+TM Srivastava, INDIA, KXIP, Right-HB, XXy, 2008-2010
+TP Sudhindra, INDIA, KXIP, Right-HB, XXy, 2011-2011
+TR Birt, AUSTRALIA, RCB, Right-HB, XXy, 2009-2009
+TS Mills, ENGLAND, RCB, Left-HB, XXy, 2017-2017
+TU Deshpande, INDIA, DD/DC, Right-HB, XXy, 2019-2019
+Tejas Baroka, INDIA, RR, Right-HB, XXy, 2020-2020
+Tilak Varma, INDIA, SRH, Left-HB, XXy, 2021-Present
+U Kaul, INDIA, Various Teams, Right-HB, XXy, 2008-2018
+UA Birla, INDIA, RR, Left-HB, XXy, 2013-2013
+UBT Chand, INDIA, KXIP, Left-HB, XXy, 2010-2015
+UT Khawaja, AUSTRALIA, KXIP, Left-HB, XXy, 2016-2016
+UT Yadav, INDIA, Various Teams, Right-HB, XXy, 2010-Present
+Umar Gul, PAKISTAN, KKR, Right-HB, XXy, 2008-2008
+Umran Malik, INDIA, KKR, Right-HB, XXy, 2021-Present
+V Kohli, INDIA, RCB, Right-HB, XXy, 2008-Present
+V Pratap Singh, INDIA, RR, Right-HB, XXy, 2008-2011
+V Sehwag, INDIA, DD/DC, Right-HB, XXy, 2008-2015
+VG Arora, INDIA, KKR, Right-HB, XXy, 2008-2009
+VH Zol, INDIA, RCB, Left-HB, XXy, 2014-2014
+VR Aaron, INDIA, Various Teams, Right-HB, XXy, 2012-Present
+VR Iyer, INDIA, Various Teams, Right-HB, XXy, 2015-Present
+VRV Singh, INDIA, RCB, Right-HB, XXy, 2008-2013
+VS Malik, INDIA, Various Teams, Right-HB, XXy, 2008-2013
+VS Yeligati, INDIA, RCB, Right-HB, XXy, 2010-2010
+VVS Laxman, INDIA, DC, Right-HB, XXy, 2008-2012
+VY Mahesh, INDIA, KKR, Right-HB, XXy, 2008-2011
+Virat Singh, INDIA, SRH, Left-HB, XXy, 2021-Present
+Vishnu Vinod, INDIA, RCB, Left-HB, XXy, 2017-Present
+W Jaffer, INDIA, RCB, Right-HB, XXy, 2008-2008
+WA Mota, INDIA, DD/DC, Right-HB, XXy, 2008-2009
+WD Parnell, SOUTH AFRICA, Various Teams, Left-HB, XXy, 2010-2017
+WP Saha, INDIA, Various Teams, Right-HB, XXy, 2008-Present
+WPUJC Vaas, SRI LANKA, SRH, Left-HB, XXy, 2008-2008
+Washington Sundar, INDIA, Various Teams, Left-HB, XXy, 2017-Present
+X Thalaivan Sargunam, INDIA, KKR, Left-HB, XXy, 2012-2013
+Y Gnaneswara Rao, INDIA, KXIP, Right-HB, XXy, 2008-2010
+Y Nagar, INDIA, DD/DC, Right-HB, XXy, 2008-2014
+Y Prithvi Raj, INDIA, KKR, Right-HB, XXy, 2019-2019
+Y Venugopal Rao, INDIA, Various Teams, Right-HB, XXy, 2008-2014
+YA Abdulla, SOUTH AFRICA, KKR, Left-HB, XXy, 2009-2011
+YBK Jaiswal, INDIA, RR, Left-HB, XXy, 2019-Present
+YK Pathan, INDIA, Various Teams, Left-HB, XXy, 2008-2017
+YS Chahal, INDIA, RCB, Right-HB, XXy, 2014-Present
+YV Takawale, INDIA, Various Teams, Right-HB, XXy, 2008-2014
+Yash Dayal, INDIA, RR, Right-HB, XXy, 2021-Present
+Yashpal Singh, INDIA, DD/DC, Right-HB, XXy, 2008-2014
+Younis Khan, PAKISTAN, RR, Right-HB, XXy, 2008-2008
+Yuvraj Singh, INDIA, Various Teams, Left-HB, XXy, 2008-2019
+Z Khan, INDIA, Various Teams, Left-HB, XXy, 2008-2017
+
+
